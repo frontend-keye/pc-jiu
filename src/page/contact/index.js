@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 
-class Index extends Component {
+class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = {  }
   }
-  componentDidMount () {
-  }
   render() { 
     return ( 
-      <div className="index">
-        index
+      <div className="contact">
+        Contact
       </div>
     );
   }
 }
  
-export default Index;
+export default Contact;

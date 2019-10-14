@@ -9,11 +9,11 @@ const routers = router.map((t, i) => {
   return <Route path={t.path} component={t.component} key={i}></Route>
 })
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <Header></Header>
       <Router>
+        <Header></Header>
         <Switch>
           {routers}
           <Redirect from="/" to="/index"></Redirect>

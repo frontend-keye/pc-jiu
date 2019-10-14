@@ -1,11 +1,18 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-
-function header () {
+import {Link, withRouter} from 'react-router-dom'
+import classnames from 'classnames'
+import routers from '../../router'
+import './index.scss'
+function Header ({location: {pathname}}) {
+  const Links = routers.sort((a, b) => a.sort - b.sort).map((t, i) => {
+    return <Link className={classnames({
+      'acitve-nav': t.path === pathname
+    })} key={i} to={t.path}>{t.title}</Link>
+  })
   return <div className="header">
     <div className="nav">
-      <Link to=""></Link>
+      {Links}
     </div>
   </div>
 }
-export default header
+export default withRouter(Header)
