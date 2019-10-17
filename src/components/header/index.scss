@@ -1,3 +1,16 @@
-.acitve-nav {
-  color: red;
+.header {
+  padding-top: 30px;
+}
+
+.nav {
+  font-size: 18px;
+  font-weight: normal;
+}
+.nav-item{
+  margin: 3px 50px;
+  padding: 3px 0;
+}
+.acitve-nav, .nav-item:hover {
+  font-weight: bolder;
+  border-bottom: solid 1px #0166b3;
 }

@@ -5,8 +5,12 @@ import routers from '../../router'
 import './index.scss'
 function Header ({location: {pathname}}) {
   const Links = routers.sort((a, b) => a.sort - b.sort).map((t, i) => {
+    if ('/index' === t.path) {
+      return null
+    }
     return <Link className={classnames({
-      'acitve-nav': t.path === pathname
+      'acitve-nav': t.path === pathname,
+      'nav-item': true
     })} key={i} to={t.path}>{t.title}</Link>
   })
   return <div className="header">
