@@ -1,10 +1,13 @@
 .header {
   padding-top: 30px;
+  margin-bottom: 10px;
 }
 
 .nav {
   font-size: 18px;
   font-weight: normal;
+  display: flex;
+  justify-content: center;
 }
 .nav-item{
   margin: 3px 50px;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import './index.scss'
 class Index extends Component {
   constructor(props) {
@@ -11,8 +12,35 @@ class Index extends Component {
     return ( 
       <div className="index">
         <div className="banner">
-          <img src="http://b.hiphotos.baidu.com/image/h%3D300/sign=92afee66fd36afc3110c39658318eb85/908fa0ec08fa513db777cf78376d55fbb3fbd9b3.jpg" alt="" srcset=""/>
+          <img src={require('../../imgs/banner.jpg')} alt="" srcset=""/>
         </div>
+
+        <div className="product">
+          <h5 className="title-home">制品信息</h5>
+          <div className="product-nav">
+            <Link className="left" to="/product">
+              <img src={require('../../imgs/product1.jpg')} alt=""/>
+            </Link>
+            <Link className="right">
+              <img src={require('../../imgs/product2.jpg')} alt=""/>
+            </Link>
+          </div>
+        </div>
+
+        <div className="pick">
+          <h5 className="title-home">Pick Up</h5>
+          <p className="sub-titel-home">ピックアップ</p>
+          <div className="pick-img">
+            <div className="">
+              <img src={require('../../imgs/pick1.jpg')} alt=""/>
+            </div>
+
+            <div className="">
+              <img src={require('../../imgs/pick1.jpg')} alt=""/>
+            </div>
+          </div>
+        </div>
+
       </div>
     );
   }

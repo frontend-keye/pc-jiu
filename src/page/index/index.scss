@@ -1,10 +1,56 @@
 .banner {
   height: 355px;
   margin: 20px 0;
+  width: 100%;
+  overflow: hidden;
 
   img{
     display: block;
     height: 355px;
     margin: 0 auto;
+    transform: translateX(-150px);
   }
+}
+.product {
+  margin-top: 60px;
+  img:hover {
+    opacity: 0.9;
+  }
+}
+.product-nav {
+  display: flex;
+
+  justify-content: center;
+
+  img {
+    cursor: pointer;
+  }
+}
+.title-home {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 2;
+}
+.sub-titel-home {
+  font-size: 16px;
+  line-height: 2;
+}
+.pick {
+  img {
+    cursor: pointer;
+  }
+  img:hover {
+    opacity: 0.9;
+  }
+  .pick-img {
+    display: flex;
+    justify-content: center;
+    img {
+      margin-right: 5px;
+    }
+  }
+
+  padding: 50px 0;
+  margin-top: 80px;
+  background: #e3f1fc;
 }
