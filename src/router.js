@@ -5,6 +5,7 @@ import Environment from './page/environment'
 import Product from './page/product'
 import ProductInfo from './page/productInfo'
 import Recuitment from './page/recuitment'
+import RecuitmentDetail from './page/recuitmentdetail'
 
 export default [{
   path: '/index',
@@ -41,4 +42,8 @@ export default [{
   component: Recuitment,
   title: '采用情报',
   order: 4
+}, {
+  path: '/recuitmentdetail',
+  component: RecuitmentDetail,
+  title: ''
 }]
