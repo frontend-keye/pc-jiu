@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8f9c20ff08d5f692618d28c0d2f776f",
+    "revision": "6feb14bff518375dac2c62b1d2ebcbd0",
     "url": "/pc-jiu/index.html"
   },
   {
-    "revision": "7e0a487a5f7ac53d0693",
-    "url": "/pc-jiu/static/css/main.1fb6d9b4.chunk.css"
+    "revision": "51f8fab915331a36ccc8",
+    "url": "/pc-jiu/static/css/main.0176b48b.chunk.css"
   },
   {
-    "revision": "a746090c936848cb1d20",
-    "url": "/pc-jiu/static/js/2.89499ddc.chunk.js"
+    "revision": "f64f5d0304b4cd5f6b9a",
+    "url": "/pc-jiu/static/js/2.3b8968cb.chunk.js"
   },
   {
-    "revision": "7e0a487a5f7ac53d0693",
-    "url": "/pc-jiu/static/js/main.fbd52ce4.chunk.js"
+    "revision": "51f8fab915331a36ccc8",
+    "url": "/pc-jiu/static/js/main.ae5ecf48.chunk.js"
   },
   {
     "revision": "f61554b85630bd354802",
@@ -50,6 +50,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "06ac43e59f662291a2d93eada16a2264",
     "url": "/pc-jiu/static/media/product2.06ac43e5.jpg"
+  },
+  {
+    "revision": "2edd98fd1adba1bebe4d880bc2b61286",
+    "url": "/pc-jiu/static/media/recruitment1.2edd98fd.jpg"
+  },
+  {
+    "revision": "e2d0741148e68f8102acd2591a46007d",
+    "url": "/pc-jiu/static/media/recruitment2.e2d07411.jpg"
   },
   {
     "revision": "e7ecc8c607ece554bb757d0c8c7d163b",
