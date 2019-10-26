@@ -1,8 +1,14 @@
 .header {
   padding-top: 30px;
   margin-bottom: 10px;
+  height: 60px;
+  background: #ffffff;
+  width: 100%;
 }
-
+.header .inner {
+  position: fixed;
+  top: 0;
+}
 .nav {
   font-size: 18px;
   font-weight: normal;
