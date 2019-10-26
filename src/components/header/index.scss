@@ -4,6 +4,7 @@
   height: 60px;
   background: #ffffff;
   width: 100%;
+  z-index: 99999;
 }
 .header .inner {
   position: fixed;
@@ -22,4 +23,23 @@
 .acitve-nav, .nav-item:hover {
   font-weight: bolder;
   border-bottom: solid 1px #0166b3;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+
+  height: 20px;
+  margin: 0 auto;
+  width: 760px;
+  font-size: 12px;
+  .home {
+    flex: 1;
+    text-align: left;
+  }
+}
+.search {
+  line-height: 30px;
+  padding-left: 20px;;
+  background: url('./icon-search.png') left center no-repeat;
 }

@@ -9,13 +9,16 @@ function Header ({location: {pathname}}) {
       return null
     }
     return <Link className={classnames({
-      'acitve-nav': t.path === pathname,
+      'acitve-nav': pathname.indexOf(t.path) !== -1,
       'nav-item': true
     })} key={i} to={t.path}>{t.title}</Link>
   })
   return <div className="header">
     <div className="header inner">
-      <Link to='/home'>home</Link>
+      <div className="top-header">
+        <Link to='/home' className="home">home</Link>
+        <a className="search" href="http://www.google.com" target="__blank">検 索</a>
+      </div>
       <div className="nav">
         {Links}
       </div>
