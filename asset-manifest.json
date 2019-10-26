@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pc-jiu/static/css/main.821b3761.chunk.css",
-    "main.js": "/pc-jiu/static/js/main.71c9e6ec.chunk.js",
-    "main.js.map": "/pc-jiu/static/js/main.71c9e6ec.chunk.js.map",
+    "main.css": "/pc-jiu/static/css/main.3c60774e.chunk.css",
+    "main.js": "/pc-jiu/static/js/main.9fa39247.chunk.js",
+    "main.js.map": "/pc-jiu/static/js/main.9fa39247.chunk.js.map",
     "runtime-main.js": "/pc-jiu/static/js/runtime-main.38e9cc76.js",
     "runtime-main.js.map": "/pc-jiu/static/js/runtime-main.38e9cc76.js.map",
     "static/js/2.c7dea5d7.chunk.js": "/pc-jiu/static/js/2.c7dea5d7.chunk.js",
     "static/js/2.c7dea5d7.chunk.js.map": "/pc-jiu/static/js/2.c7dea5d7.chunk.js.map",
     "index.html": "/pc-jiu/index.html",
-    "precache-manifest.fe45d0a6e830aeffba06c0933e5e5f26.js": "/pc-jiu/precache-manifest.fe45d0a6e830aeffba06c0933e5e5f26.js",
+    "precache-manifest.52146ea15c953ab1a0128d2382f11469.js": "/pc-jiu/precache-manifest.52146ea15c953ab1a0128d2382f11469.js",
     "service-worker.js": "/pc-jiu/service-worker.js",
-    "static/css/main.821b3761.chunk.css.map": "/pc-jiu/static/css/main.821b3761.chunk.css.map",
+    "static/css/main.3c60774e.chunk.css.map": "/pc-jiu/static/css/main.3c60774e.chunk.css.map",
     "static/media/banner.jpg": "/pc-jiu/static/media/banner.ea19c71a.jpg",
     "static/media/bg-product.jpg": "/pc-jiu/static/media/bg-product.0200bdb2.jpg",
     "static/media/environment.jpg": "/pc-jiu/static/media/environment.30025618.jpg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.38e9cc76.js",
     "static/js/2.c7dea5d7.chunk.js",
-    "static/css/main.821b3761.chunk.css",
-    "static/js/main.71c9e6ec.chunk.js"
+    "static/css/main.3c60774e.chunk.css",
+    "static/js/main.9fa39247.chunk.js"
   ]
 }
