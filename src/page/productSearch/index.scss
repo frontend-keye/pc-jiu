@@ -1,0 +1,111 @@
+.product-search-page section {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 50px;
+
+  .errTip {
+    color: red;
+    font-size: 12px;
+    margin: 10px 0 15px;
+  }
+
+  .h3-product-search {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+
+    margin-bottom: 20px;
+  }
+
+  .sub-title-proSer {
+    font-size: 16px;
+    margin-bottom: 15px;
+
+
+  }
+
+  .form-product-search {
+    border: solid 1px #999;
+    font-size: 14px;
+    text-align: left;
+
+    input {
+      height: 36px;
+    }
+
+
+    .header-product-search {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      input {
+        width: 380px;
+        margin-right: 20px;
+      }
+      & > span:first-child {
+        width: 200px;
+      }
+    }
+    .tip-title {
+      padding: 10px;
+    }
+    .content-form-productSearch {
+      background: #eee;
+      padding: 10px
+    }
+    .item-form-product {
+      border: solid 1px #999;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      & > span:first-child {
+        width: 200px;
+      }
+
+      span, span label {
+        display: flex;
+        align-items: center;
+      }
+      input {
+        margin: 10px;
+      }
+    }
+    .border-none-bottom {
+      border-bottom: none;
+    }
+    .margin-bottom-5 {
+      margin-bottom: 5px;
+    }
+
+  }
+
+  .tip-ps {
+    font-size: 12px;
+  }
+
+  .center-errTip {
+    margin: 20px 0 15px;
+    color: red;
+    text-align: center;
+  }
+
+  .search-btn {
+    width: 388px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    margin: 50px auto 100px;
+    display: block;
+    color: red;
+
+    border: solid 2px red;
+    font-weight: 600;
+    border-radius: 6px;
+  }
+  .search-btn:hover {
+    color: #ffffff;
+    background: red;
+
+  }
+}

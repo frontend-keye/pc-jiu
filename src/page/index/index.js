@@ -21,7 +21,7 @@ class Index extends Component {
             <Link className="left" to="/product">
               <img src={require('../../imgs/product1.jpg')} alt=""/>
             </Link>
-            <Link className="right">
+            <Link className="right" to="/product/search">
               <img src={require('../../imgs/product2.jpg')} alt=""/>
             </Link>
           </div>

@@ -4,6 +4,7 @@ import Contact from './page/contact'
 import Environment from './page/environment'
 import Product from './page/product'
 import ProductInfo from './page/productInfo'
+import ProductSearch from './page/productSearch'
 import Recuitment from './page/recuitment'
 import RecuitmentDetail from './page/recuitmentdetail'
 
@@ -31,10 +32,16 @@ export default [{
   path: '/product',
   component: Product,
   title: '制品信息',
-  order: 1
+  order: 1,
+  exact: true
 }, {
   path: '/productInfo/:type',
   component: ProductInfo,
+  title: '',
+  order: 0
+}, {
+  path: '/product/search',
+  component: ProductSearch,
   title: '',
   order: 0
 }, {
