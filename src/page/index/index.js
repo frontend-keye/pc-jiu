@@ -16,7 +16,7 @@ class Index extends Component {
         </div>
 
         <div className="product">
-          <h5 className="title-home">制品信息</h5>
+          <h5 className="title-home">製品情報</h5>
           <div className="product-nav">
             <Link className="left" to="/product">
               <img src={require('../../imgs/product1.jpg')} alt=""/>
@@ -31,12 +31,16 @@ class Index extends Component {
           <h5 className="title-home">Pick Up</h5>
           <p className="sub-titel-home">ピックアップ</p>
           <div className="pick-img">
+          <div className="">
+              <Link to="/compony">
+                <img src={require('../../imgs/pick2.jpg')} alt=""/>
+              </Link>
+            </div>            
             <div className="">
-              <img src={require('../../imgs/pick1.jpg')} alt=""/>
-            </div>
+              <Link to= "/recuitment">
 
-            <div className="">
-              <img src={require('../../imgs/pick1.jpg')} alt=""/>
+                <img src={require('../../imgs/pick1.jpg')} alt=""/>
+              </Link>
             </div>
           </div>
         </div>

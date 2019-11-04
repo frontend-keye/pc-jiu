@@ -1,35 +1,66 @@
 .header {
+  position: relative;
   padding-top: 30px;
-  margin-bottom: 10px;
-  height: 60px;
+  height: 101px;
   background: #ffffff;
   width: 100%;
-  z-index: 99999;
+  z-index: 9999999;
+}
+.right-item {
+  margin-right: 10px;
+
+}
+.right-header {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+
 }
 .header .inner {
   position: fixed;
+  height: 101px;
+  background: #ffffff;
+  z-index: 9999999;
   top: 0;
 }
 .nav {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   display: flex;
   justify-content: center;
+  border-bottom: solid 5px #1887CA;
 }
 .nav-item{
-  margin: 3px 50px;
-  padding: 3px 0;
+  // margin: 3px 50px;
+  // padding: 3px 0;
+  width: 185px;
+  line-height: 44px;
+  border: solid 1px #e8e8e8;
+  border-left: none;
 }
 .acitve-nav, .nav-item:hover {
   font-weight: bolder;
-  border-bottom: solid 1px #0166b3;
+  // border-bottom: solid 1px #0166b3;
+  background: #1887CA;
+  color: #ffffff;
+  border-bottom-color: #1887CA !important;
 }
-
+.header-home-container {
+  border: solid 1px #e8e8e8;
+}
+.header-home {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  img {
+    margin: 0 10px;
+  }
+}
 .top-header {
   display: flex;
   align-items: center;
 
-  height: 20px;
+  height: 50px;
   margin: 0 auto;
   width: 760px;
   font-size: 12px;
@@ -42,4 +73,18 @@
   line-height: 30px;
   padding-left: 20px;;
   background: url('./icon-search.png') left center no-repeat;
+}
+
+.header-logo-container {
+  margin-left: -50px;
+  img {
+    width: 120px;
+    height: 120px;
+  }
+  display: flex;
+  align-items: flex-end;
+  p {
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
 }

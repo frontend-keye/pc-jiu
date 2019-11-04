@@ -1,6 +1,6 @@
 .banner {
   height: 355px;
-  margin: 20px 0;
+  margin-bottom: 20px;
   width: 100%;
   overflow: hidden;
 
@@ -53,4 +53,11 @@
   padding: 50px 0;
   margin-top: 80px;
   background: #e3f1fc;
+}
+
+.pick-img {
+  img {
+    width: 333px;
+    height: 200px;
+  }
 }

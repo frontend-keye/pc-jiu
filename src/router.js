@@ -8,31 +8,32 @@ import ProductSearch from './page/productSearch'
 import Recuitment from './page/recuitment'
 import RecuitmentDetail from './page/recuitmentdetail'
 
+// 5 品質管理
 export default [{
   path: '/index',
   component: Index,
-  title: '首页',
+  title: 'HOME',
   order: 0
 }, {
   path: '/contact',
   component: Contact,
-  title: '联系方式',
-  order: 5
+  title: 'お問い合わせ',
+  order: 0
 }, {
   path: '/compony',
   component: Compony,
-  title: '企业信息',
+  title: '企業情報',
   order: 2
 }, {
   path: '/environment',
   component: Environment,
-  title: '环境改善',
-  order: 3
+  title: '環境への取り組み',
+  order: 4
 }, {
   path: '/product',
   component: Product,
-  title: '制品信息',
-  order: 1,
+  title: '製品情報',
+  order: 3,
   exact: true
 }, {
   path: '/productInfo/:type',
@@ -47,8 +48,8 @@ export default [{
 }, {
   path: '/recuitment',
   component: Recuitment,
-  title: '采用情报',
-  order: 4
+  title: '採用情報',
+  order: 6
 }, {
   path: '/recuitmentdetail',
   component: RecuitmentDetail,
