@@ -1,0 +1,14 @@
+.navBottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eeeeee;
+
+  .item-navBottom {
+    padding: 0 10px;
+    margin: 10px 0;
+  }
+  .item-navBottom + .item-navBottom {
+    border-left: solid 1px #666666;
+  }
+}

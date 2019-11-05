@@ -29,3 +29,19 @@ a {
   margin: 0;
   line-height: 1;
 }
+
+.bottom-tip img{
+    height: 30px;
+    margin-right: 5px;
+}
+
+.bottom-tip {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #333333;
+  justify-content: center;
+  border-top: solid 1px #cccccc;
+  /* border-bottom: solid 1px #cccccc; */
+  /* margin-top: 20px; */
+}

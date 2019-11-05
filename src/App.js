@@ -1,6 +1,7 @@
 import React from 'react';
 import {HashRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
 import Header from './components/header'
+import BottomNav from './components/bottomNav'
 import './App.css';
 import router from './router';
 
@@ -18,8 +19,9 @@ function App(props) {
           {routers}
           <Redirect from="/" to="/index"></Redirect>
         </Switch>
-        
+        <BottomNav />
       </Router>
+      <p className="bottom-tip"> <img src={require('./imgs/logo.png')}/> ジェイオート精工株式会社</p>
     </div>
   );
 }

@@ -13,7 +13,8 @@ export default [{
   path: '/index',
   component: Index,
   title: 'HOME',
-  order: 0
+  order: 0,
+  isBottom: true
 }, {
   path: '/contact',
   component: Contact,
@@ -23,18 +24,21 @@ export default [{
   path: '/compony',
   component: Compony,
   title: '企業情報',
-  order: 2
+  order: 2,
+  isBottom: true
 }, {
   path: '/environment',
   component: Environment,
   title: '環境への取り組み',
-  order: 4
+  order: 4,
+  isBottom: true
 }, {
   path: '/product',
   component: Product,
   title: '製品情報',
   order: 3,
-  exact: true
+  exact: true,
+  isBottom: true
 }, {
   path: '/productInfo/:type',
   component: ProductInfo,
@@ -49,7 +53,8 @@ export default [{
   path: '/recuitment',
   component: Recuitment,
   title: '採用情報',
-  order: 6
+  order: 6,
+  isBottom: true
 }, {
   path: '/recuitmentdetail',
   component: RecuitmentDetail,
