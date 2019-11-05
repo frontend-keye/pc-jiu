@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/pc-jiu/static/css/main.3c60774e.chunk.css",
-    "main.js": "/pc-jiu/static/js/main.9fa39247.chunk.js",
-    "main.js.map": "/pc-jiu/static/js/main.9fa39247.chunk.js.map",
+    "main.css": "/pc-jiu/static/css/main.d6448f1c.chunk.css",
+    "main.js": "/pc-jiu/static/js/main.9cffac4e.chunk.js",
+    "main.js.map": "/pc-jiu/static/js/main.9cffac4e.chunk.js.map",
     "runtime-main.js": "/pc-jiu/static/js/runtime-main.38e9cc76.js",
     "runtime-main.js.map": "/pc-jiu/static/js/runtime-main.38e9cc76.js.map",
-    "static/js/2.c7dea5d7.chunk.js": "/pc-jiu/static/js/2.c7dea5d7.chunk.js",
-    "static/js/2.c7dea5d7.chunk.js.map": "/pc-jiu/static/js/2.c7dea5d7.chunk.js.map",
+    "static/js/2.310f56c6.chunk.js": "/pc-jiu/static/js/2.310f56c6.chunk.js",
+    "static/js/2.310f56c6.chunk.js.map": "/pc-jiu/static/js/2.310f56c6.chunk.js.map",
     "index.html": "/pc-jiu/index.html",
-    "precache-manifest.52146ea15c953ab1a0128d2382f11469.js": "/pc-jiu/precache-manifest.52146ea15c953ab1a0128d2382f11469.js",
+    "precache-manifest.50030d1079745928b115d08bef38d10e.js": "/pc-jiu/precache-manifest.50030d1079745928b115d08bef38d10e.js",
     "service-worker.js": "/pc-jiu/service-worker.js",
-    "static/css/main.3c60774e.chunk.css.map": "/pc-jiu/static/css/main.3c60774e.chunk.css.map",
+    "static/css/main.d6448f1c.chunk.css.map": "/pc-jiu/static/css/main.d6448f1c.chunk.css.map",
     "static/media/banner.jpg": "/pc-jiu/static/media/banner.ea19c71a.jpg",
     "static/media/bg-product.jpg": "/pc-jiu/static/media/bg-product.0200bdb2.jpg",
     "static/media/environment.jpg": "/pc-jiu/static/media/environment.30025618.jpg",
-    "static/media/pick1.jpg": "/pc-jiu/static/media/pick1.895fc028.jpg",
+    "static/media/home-g.png": "/pc-jiu/static/media/home-g.d967b818.png",
+    "static/media/icon_facebook.svg": "/pc-jiu/static/media/icon_facebook.ddbbc0a0.svg",
+    "static/media/icon_twitter.svg": "/pc-jiu/static/media/icon_twitter.2d8eb5e3.svg",
+    "static/media/logo.png": "/pc-jiu/static/media/logo.518316d0.png",
+    "static/media/pick1.jpg": "/pc-jiu/static/media/pick1.9786ae9e.jpg",
+    "static/media/pick2.jpg": "/pc-jiu/static/media/pick2.895fc028.jpg",
     "static/media/product-info.jpg": "/pc-jiu/static/media/product-info.857c78f4.jpg",
     "static/media/product-show.png": "/pc-jiu/static/media/product-show.709e62ab.png",
     "static/media/product1.jpg": "/pc-jiu/static/media/product1.d8d7842e.jpg",
@@ -31,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.38e9cc76.js",
-    "static/js/2.c7dea5d7.chunk.js",
-    "static/css/main.3c60774e.chunk.css",
-    "static/js/main.9fa39247.chunk.js"
+    "static/js/2.310f56c6.chunk.js",
+    "static/css/main.d6448f1c.chunk.css",
+    "static/js/main.9cffac4e.chunk.js"
   ]
 }

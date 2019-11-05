@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06aa32d74ed6b0bf90319ef8589c43ce",
+    "revision": "24469d09801fd41ef77c45f200d24c54",
     "url": "/pc-jiu/index.html"
   },
   {
-    "revision": "990ce25d23017788c736",
-    "url": "/pc-jiu/static/css/main.3c60774e.chunk.css"
+    "revision": "59324ea0e7e75f5f2c9c",
+    "url": "/pc-jiu/static/css/main.d6448f1c.chunk.css"
   },
   {
-    "revision": "dc3d2eb7a5427c064599",
-    "url": "/pc-jiu/static/js/2.c7dea5d7.chunk.js"
+    "revision": "2301d6d1b82f3e12f82a",
+    "url": "/pc-jiu/static/js/2.310f56c6.chunk.js"
   },
   {
-    "revision": "990ce25d23017788c736",
-    "url": "/pc-jiu/static/js/main.9fa39247.chunk.js"
+    "revision": "59324ea0e7e75f5f2c9c",
+    "url": "/pc-jiu/static/js/main.9cffac4e.chunk.js"
   },
   {
     "revision": "f61554b85630bd354802",
@@ -32,8 +32,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pc-jiu/static/media/environment.30025618.jpg"
   },
   {
+    "revision": "d967b818eda70e1d4fe7a9a7ca08618f",
+    "url": "/pc-jiu/static/media/home-g.d967b818.png"
+  },
+  {
+    "revision": "ddbbc0a0f3079ecf641deb0af3e8b613",
+    "url": "/pc-jiu/static/media/icon_facebook.ddbbc0a0.svg"
+  },
+  {
+    "revision": "2d8eb5e342327bf974b8d519780eb0b2",
+    "url": "/pc-jiu/static/media/icon_twitter.2d8eb5e3.svg"
+  },
+  {
+    "revision": "518316d0ff7c14d79c665f786f9249ae",
+    "url": "/pc-jiu/static/media/logo.518316d0.png"
+  },
+  {
+    "revision": "9786ae9ec8267ddca80f0a87f006521f",
+    "url": "/pc-jiu/static/media/pick1.9786ae9e.jpg"
+  },
+  {
     "revision": "895fc028c77bd6b23bc1b6ec3f1ea4c6",
-    "url": "/pc-jiu/static/media/pick1.895fc028.jpg"
+    "url": "/pc-jiu/static/media/pick2.895fc028.jpg"
   },
   {
     "revision": "857c78f4381697089070e29b54487bd4",
