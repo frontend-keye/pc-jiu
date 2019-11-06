@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67df6ce16b623eecbc886383300ef4dd",
+    "revision": "86dad9273daf85deb2f39d88686771d0",
     "url": "/pc-jiu/index.html"
   },
   {
-    "revision": "19cdda901f584738709b",
-    "url": "/pc-jiu/static/css/main.fbf57707.chunk.css"
+    "revision": "49da65983340a377d849",
+    "url": "/pc-jiu/static/css/main.fb719a96.chunk.css"
   },
   {
-    "revision": "2301d6d1b82f3e12f82a",
-    "url": "/pc-jiu/static/js/2.310f56c6.chunk.js"
+    "revision": "40b1b6bf99c3c25090a7",
+    "url": "/pc-jiu/static/js/2.4dc78910.chunk.js"
   },
   {
-    "revision": "19cdda901f584738709b",
-    "url": "/pc-jiu/static/js/main.a078b5d5.chunk.js"
+    "revision": "49da65983340a377d849",
+    "url": "/pc-jiu/static/js/main.4af52b77.chunk.js"
   },
   {
     "revision": "f61554b85630bd354802",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0200bdb2474311c9d8d3368244e0fbad",
     "url": "/pc-jiu/static/media/bg-product.0200bdb2.jpg"
+  },
+  {
+    "revision": "823a4401be2cbd12b3fd063293189ab5",
+    "url": "/pc-jiu/static/media/bxiugang.823a4401.jpg"
+  },
+  {
+    "revision": "517abfc553c44ceb86afd7d6ca6ae500",
+    "url": "/pc-jiu/static/media/daizuo.517abfc5.jpg"
   },
   {
     "revision": "4035fb333de592f2318f69bd4a107886",
@@ -48,16 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pc-jiu/static/media/logo.518316d0.png"
   },
   {
+    "revision": "e8c1dd0f9263a4788a83842b171ea77f",
+    "url": "/pc-jiu/static/media/name.e8c1dd0f.png"
+  },
+  {
     "revision": "9786ae9ec8267ddca80f0a87f006521f",
     "url": "/pc-jiu/static/media/pick1.9786ae9e.jpg"
   },
   {
     "revision": "895fc028c77bd6b23bc1b6ec3f1ea4c6",
     "url": "/pc-jiu/static/media/pick2.895fc028.jpg"
-  },
-  {
-    "revision": "857c78f4381697089070e29b54487bd4",
-    "url": "/pc-jiu/static/media/product-info.857c78f4.jpg"
   },
   {
     "revision": "709e62abfccee1a7ff96d5736016f8d8",
@@ -72,39 +80,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pc-jiu/static/media/product2.06ac43e5.jpg"
   },
   {
-    "revision": "2edd98fd1adba1bebe4d880bc2b61286",
-    "url": "/pc-jiu/static/media/recruitment1.2edd98fd.jpg"
+    "revision": "4970a2aeb1f0434609e8c8850ce09691",
+    "url": "/pc-jiu/static/media/qiumian.4970a2ae.jpg"
   },
   {
-    "revision": "e2d0741148e68f8102acd2591a46007d",
-    "url": "/pc-jiu/static/media/recruitment2.e2d07411.jpg"
+    "revision": "b68d03d7dafb950094bf5db51ec3fa3f",
+    "url": "/pc-jiu/static/media/recruitment1.b68d03d7.jpg"
   },
   {
-    "revision": "e7ecc8c607ece554bb757d0c8c7d163b",
-    "url": "/pc-jiu/static/media/use11.e7ecc8c6.jpg"
-  },
-  {
-    "revision": "0cbfb168280f6cef9077bdd8c0206b8e",
-    "url": "/pc-jiu/static/media/use12.0cbfb168.jpg"
-  },
-  {
-    "revision": "7853c9e592161d2a7432cb1d4e84ba7d",
-    "url": "/pc-jiu/static/media/use13.7853c9e5.jpg"
-  },
-  {
-    "revision": "b3aeab0adf4d34c017af2f8279f3d278",
-    "url": "/pc-jiu/static/media/use31.b3aeab0a.jpg"
-  },
-  {
-    "revision": "6b7e21a2a3a61d60baaea36dab9bdd0d",
-    "url": "/pc-jiu/static/media/use32.6b7e21a2.jpg"
-  },
-  {
-    "revision": "7615fa24a595ee4b60be49b9ca79b43b",
-    "url": "/pc-jiu/static/media/use33.7615fa24.jpg"
-  },
-  {
-    "revision": "9a77f32e033ccfb8e92e97e2484d0e02",
-    "url": "/pc-jiu/static/media/use34.9a77f32e.jpg"
+    "revision": "673481b8f9a1435cdc05c43dbd6efa57",
+    "url": "/pc-jiu/static/media/recruitment2.673481b8.jpg"
   }
 ]);
