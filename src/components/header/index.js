@@ -20,7 +20,7 @@ function Header ({location: {pathname}}) {
         <div className="home">
           <Link  to='/home' className="header-logo-container">
             <img src={require('../../imgs/logo.png')} alt=""/>
-            <p>ジェイオート精工株式会社</p>
+            <p><img src={require('./name.png')} alt=""/></p>
           </Link>
         </div>
         <div className="right-header">

@@ -75,21 +75,25 @@
   }
 }
 .search {
-  line-height: 30px;
+  // line-height: 30px;
   padding-left: 20px;;
   background: url('./icon-search.png') left center no-repeat;
+  background-size: 13px 13px;
 }
 
 .header-logo-container {
   margin-left: -50px;
-  img {
+  & > img {
     width: 120px;
     height: 120px;
   }
   display: flex;
   align-items: flex-end;
   p {
-    margin-bottom: 40px;
-    font-size: 20px;
+    margin-bottom: 38px;
+    // font-size: 20px;
+    img {
+      width: 200px;
+    }
   }
 }
