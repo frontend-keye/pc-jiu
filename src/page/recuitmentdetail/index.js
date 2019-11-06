@@ -1,13 +1,8 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, Fragment} from 'react'
 import './index.scss'
 
 
 const RecuitmentDetail = (props) => {
-  useEffect(() => {
-    setTimeout(() => {
-      const offsetTop =  document.querySelector('#a1').offsetTop 
-    })
-  })
   return (
     <div className="recuitmentDetail">
         <p className="recuitment-h">
@@ -15,11 +10,12 @@ const RecuitmentDetail = (props) => {
         </p>
 
         <div className="section-recDet center">
+        {
+        props.match.params.type == 1 && 
+        <Fragment>
           <p className="sub-title "> <span className="icon">-</span> 新卒採用</p>
 
           <p className="minititle">【募集要項】</p>
-
-
 
           <p className="minititle">【　エントリー方法　】</p>
 
@@ -57,9 +53,13 @@ const RecuitmentDetail = (props) => {
               <span className="content-table">健康保険、厚生年金保険、雇用保険、労災保険、退職金制度あり</span>
             </div>
           </div>
-
-          <a name="1" id="a1"></a>
-          <p className="sub-title "> <span className="icon">-</span> キャリア採用</p>
+          
+        </Fragment>
+      }
+      {
+        props.match.params.type == 2 && 
+        <div className="section-recDet center">
+<p className="sub-title "> <span className="icon">-</span> キャリア採用</p>
           <p className="minititle">【募集要項】</p>
 
           <div className="table-recDetail">
@@ -105,6 +105,10 @@ const RecuitmentDetail = (props) => {
               <span className="content-table">中国での勤務を希望される方は下記採用窓口にご相談ください。</span>
             </div>
           </div>
+
+        </div>
+      }
+          
 
           <p className="minititle">【　エントリー方法　】</p>
 

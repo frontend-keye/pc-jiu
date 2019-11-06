@@ -15,10 +15,12 @@ function App(props) {
     <div className="App">
       <Router>
         <Header></Header>
-        <Switch>
-          {routers}
-          <Redirect from="/" to="/index"></Redirect>
-        </Switch>
+        <div className="content-app">
+          <Switch>
+            {routers}
+            <Redirect from="/" to="/index"></Redirect>
+          </Switch>
+        </div>
         <BottomNav />
       </Router>
       <p className="bottom-tip"> <img src={require('./imgs/logo.png')}/> © ジェイオート精工株式会社</p>

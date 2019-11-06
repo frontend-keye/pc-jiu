@@ -1,11 +1,15 @@
 .recuitment-h {
-  background: #cccccc;
+  width: 980px;
+  margin: 0 auto;
+  background: url(../../imgs/environment.gif) no-repeat center center;
+  background-size: 980px;
   padding: 20px;
   h5 {
-    font-size: 28px;
-    width: 800px;
+    font-size: 26px;
+    color: #ffffff;
+    // width: 700px;
     margin: 0 auto;
-    border-left: solid 3px rgb(0, 135, 202);
+    // border-left: solid 3px rgb(0, 135, 202);
     text-indent: 20px;
   }
 }
@@ -16,10 +20,16 @@
 
   .section-recuitment {
     .type-container {
-      padding: 50px;
+      // padding: 50px;
       display: flex;
       align-items: center;
       justify-content: center;
+
+      border: solid 1px #cccccc;
+
+      width: 980px;
+      height: 277px;
+      margin: 30px auto;
 
       img:hover{
         opacity: 0.8;

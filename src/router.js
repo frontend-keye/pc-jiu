@@ -56,7 +56,7 @@ export default [{
   order: 6,
   isBottom: true
 }, {
-  path: '/recuitmentdetail',
+  path: '/recuitmentdetail/:type',
   component: RecuitmentDetail,
   title: ''
 }]
