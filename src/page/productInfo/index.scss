@@ -1,112 +1,22 @@
-.section {
-  width: 890px;
-  margin: 0 auto;
-  color: #222;
-  font-size: 16px;
-  font-weight: 600;
-  padding-bottom: 80px;
-  .size-product {
-    display: flex;
-    align-items: center;
-  }
-  .size-img {
-    width: 416px;
-    height: 278px;
-
-    border: solid 1px #ccc;
-
-    img {
-      width: 100%;
-      height: 100%;
-    }
+.ProductInfo {
+  .banner-product {
+    margin-top: 0 ;
   }
 
-  .size-word {
-    padding-left: 50px;
+  .section {
+    width: 890px;
+    margin: 0 auto;
+    color: #222;
 
-    .title-size {
-      font-size: 26px;
-      font-weight: 600;
-    }
-    .btn-size {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      margin-top: 50px;
-      width: 196px;
-      height: 44px;
-
-      font-weight: 600;
-      font-size: 12px;
-      color: #cf1818;
-      border: solid 2px #cf1818;
-      border-radius: 6px;
-      cursor: pointer;
-      &:hover {
-        color: #ffffff;
-        background: #cf1818;
-      }
-    }
-  }
-
-  .title-productInfo {
-    font-size: 30px;
-    background: #a4a4a4;
-    color: #ffffff;
-    line-height: 65px;
-    text-align: center;
-    margin: 20px 0 60px;
-  }
-  .feature-productInfo {
-    display: flex;
-    align-items: center;
     text-align: left;
-    p {
-      line-height: 1.5;
-    }
-  }
 
-  .table-productInfo {
+    .name-productInfo {
+      line-height: 50px;
+      text-indent: 20px;
+      background: linear-gradient(to top, rgb(233, 233, 233), rgb(255, 255, 255));
 
-    p {
-      display: flex;
-      height: 45px;
-      align-items: center;
-      border-bottom: 1px solid #ccc;
-      text-align: left;
-      span {
-        width: 300px;
-        padding-left: 20px;
-      }
-    }
-
-    .title-form-productInfo {
-      background: rba(235, 235, 235);
-      background: #eeeeee;
-      border-top: 1px solid #ccc;
-    }
-
-  }
-
-  .use-productInfo {
-    p {
-      text-align: left;
-    }
-    .img-use-productInfo {
-      display: flex;
-      img {
-        width: 200px;
-        height: 200px;
-        margin: 0 20px 30px 0;
-      }
-    }
-  }
-
-  .tip-productInfo {
-    p {
-      text-align: left;
-      line-height: 2;
+      border-top: 3px solid #ccc;
+      border-image: linear-gradient(to right, #1887CA 0%, #ccc 30%, #ccc 100%) 3;
     }
   }
 }

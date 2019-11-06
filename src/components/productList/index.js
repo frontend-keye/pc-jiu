@@ -10,14 +10,14 @@ export default function ProductList () {
               <p>鋳鉄製ベアリングユニットです。</p>
             </div>
           </Link>
-          <Link className="item-product" to="productInfo/3" style={{"marginRight": 0}}>
+          <Link className="item-product" to="productInfo/2" style={{"marginRight": 0}}>
             <img src={require('./bxiugang.jpg')} alt=""/>
             <div className="title-product">
               <h6>ステンレスベアリング　</h6>
               <p>深溝玉軸受（両シールド）タイプ</p>
             </div>
           </Link>          
-          <Link className="item-product" to="productInfo/2">
+          <Link className="item-product" to="productInfo/3">
             <img src={require('./qiumian.jpg')} alt=""/>
             
             <div className="title-product">
