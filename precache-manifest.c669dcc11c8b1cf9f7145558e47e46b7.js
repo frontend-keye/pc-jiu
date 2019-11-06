@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24469d09801fd41ef77c45f200d24c54",
+    "revision": "67df6ce16b623eecbc886383300ef4dd",
     "url": "/pc-jiu/index.html"
   },
   {
-    "revision": "59324ea0e7e75f5f2c9c",
-    "url": "/pc-jiu/static/css/main.d6448f1c.chunk.css"
+    "revision": "19cdda901f584738709b",
+    "url": "/pc-jiu/static/css/main.fbf57707.chunk.css"
   },
   {
     "revision": "2301d6d1b82f3e12f82a",
     "url": "/pc-jiu/static/js/2.310f56c6.chunk.js"
   },
   {
-    "revision": "59324ea0e7e75f5f2c9c",
-    "url": "/pc-jiu/static/js/main.9cffac4e.chunk.js"
+    "revision": "19cdda901f584738709b",
+    "url": "/pc-jiu/static/js/main.a078b5d5.chunk.js"
   },
   {
     "revision": "f61554b85630bd354802",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pc-jiu/static/media/bg-product.0200bdb2.jpg"
   },
   {
-    "revision": "30025618fc945b90954ec867f633fde1",
-    "url": "/pc-jiu/static/media/environment.30025618.jpg"
+    "revision": "4035fb333de592f2318f69bd4a107886",
+    "url": "/pc-jiu/static/media/environment.4035fb33.gif"
   },
   {
     "revision": "d967b818eda70e1d4fe7a9a7ca08618f",
