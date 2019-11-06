@@ -9,10 +9,10 @@ class Environment extends Component {
     return ( 
       <div className="environment">
         <div className="banner-envi">
-          <img src={require('../../imgs/environment.jpg')} alt="" srcset=""/>
+          <img src={require('../../imgs/environment.gif')} alt="" srcset=""/>
         </div>
         <section>
-          <p className="title-envi"></p>
+          <p className="title-envi">環境方針</p>
           <ol>
             <li>地球規模での環境保護が企業の重要な使命の一つであることを深く認識し、当社のあらゆる事業活動・軸受、軸受関連製品及び機械部品、設備等の販売及びサービスにおいて、自主的かつ積極的に地球環境保全活動を推進する。</li>
             <li>事業活動と環境を調和させるために環境管理システムを確立し、継続的に改善する。</li>

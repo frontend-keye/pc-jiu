@@ -21,7 +21,7 @@ function App(props) {
         </Switch>
         <BottomNav />
       </Router>
-      <p className="bottom-tip"> <img src={require('./imgs/logo.png')}/> ジェイオート精工株式会社</p>
+      <p className="bottom-tip"> <img src={require('./imgs/logo.png')}/> © ジェイオート精工株式会社</p>
     </div>
   );
 }

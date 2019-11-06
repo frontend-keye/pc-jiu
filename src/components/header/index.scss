@@ -1,7 +1,7 @@
 .header {
   position: relative;
   padding-top: 30px;
-  height: 101px;
+  height: 116px;
   background: #ffffff;
   width: 100%;
   z-index: 9999999;
@@ -12,13 +12,13 @@
 }
 .right-header {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   font-weight: 600;
 
 }
 .header .inner {
   position: fixed;
-  height: 101px;
+  height: 116px;
   background: #ffffff;
   z-index: 9999999;
   top: 0;
@@ -29,6 +29,9 @@
   display: flex;
   justify-content: center;
   border-bottom: solid 5px #1887CA;
+  border-top: solid 1px #e8e8e8;
+  // margin-top: 1;
+  margin-top: 15px;
 }
 .nav-item{
   // margin: 3px 50px;
@@ -37,6 +40,7 @@
   line-height: 44px;
   border: solid 1px #e8e8e8;
   border-left: none;
+  border-top: none;
 }
 .acitve-nav, .nav-item:hover {
   font-weight: bolder;
@@ -47,6 +51,7 @@
 }
 .header-home-container {
   border: solid 1px #e8e8e8;
+  border-top: none;
 }
 .header-home {
   height: 100%;

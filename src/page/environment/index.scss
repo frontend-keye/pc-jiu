@@ -1,9 +1,19 @@
 .environment {
   text-align: left;
-
+  // font-size: 16px;
+  .title-envi {
+    font-size: 20px;
+    background: #afafaf;
+    background: linear-gradient(to bottom, #afafaf, #ffffff);
+    text-indent: 30px;
+    padding: 5px 0;
+    // color: #ffffff;
+    
+  }
   .banner-envi {
     width: 900px;
-    margin: 0 auto;
+    margin: 10px auto 0;
+  
     img {
       width: 100%;
     }
@@ -13,10 +23,17 @@
     width: 800px;
     margin: 0 auto;
 
-    font-size: 14px;
+    font-size: 18px;
 
     * {
       line-height: 1.6;
+    }
+    ol {
+      padding: 0 45px;
+      margin-bottom: 45px;
+      li {
+        margin-top: 20px;
+      }
     }
   }
 }
