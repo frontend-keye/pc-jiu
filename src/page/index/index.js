@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
+
+import ProductList from '../../components/productList'
 import './index.scss'
+
 class Index extends Component {
   constructor(props) {
     super(props);
@@ -25,20 +28,7 @@ class Index extends Component {
               <img src={require('../../imgs/product2.jpg')} alt=""/>
             </Link>
           </div>
-          <div className="list-product">
-            <Link className="item-product" to="productInfo/1">
-              <img src={require('../../imgs/product-show.png')} alt=""/>
-              <h6 className="title-product">球面轴承</h6>
-            </Link>
-            <Link className="item-product" to="productInfo/2">
-              <img src={require('../../imgs/product-show.png')} alt=""/>
-              <h6 className="title-product">带坐轴承</h6>
-            </Link>
-            <Link className="item-product" to="productInfo/3" style={{"marginRight": 0}}>
-              <img src={require('../../imgs/product-show.png')} alt=""/>
-              <h6 className="title-product">不锈钢轴承</h6>
-            </Link>
-          </div>          
+        <ProductList />
         </div>
 
         <div className="pick">

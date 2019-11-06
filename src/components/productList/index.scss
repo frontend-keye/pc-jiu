@@ -1,0 +1,36 @@
+  .list-product-new {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 10px;
+    .item-product {
+      width: 722px;
+      height: 150px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+  
+      display: flex;
+      img {
+        width: 150px;
+        height: 150px;
+      }
+  
+      .title-product {
+        font-size: 14px;
+        padding: 0 10px;
+        font-weight: normal;
+        flex: 1;
+        text-align: left;
+        h6 {
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 3;
+        }
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+      }
+    }
+
+  }
