@@ -51,3 +51,6 @@ a {
   /* border-bottom: solid 1px #cccccc; */
   /* margin-top: 20px; */
 }
+ol li, ul li {
+  list-style-position: inside;
+}

@@ -2,7 +2,6 @@
   .banner-product {
     margin-top: 0 ;
   }
-
   .section {
     width: 890px;
     margin: 0 auto;
@@ -18,5 +17,113 @@
       border-top: 3px solid #ccc;
       border-image: linear-gradient(to right, #1887CA 0%, #ccc 30%, #ccc 100%) 3;
     }
+
+    .imgInfo {
+      display: flex;
+      margin-bottom: 50px;
+      padding-top: 20px;
+      img {
+        width: 300px;
+        height: 223px;
+      }
+
+      .imgInfoRight {
+        padding: 20px;
+        
+        p {
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 1.5;
+          margin-bottom: 20px;
+        }
+        
+        .table-product {
+          display: flex;
+          align-items: stretch;
+          height: 100px;
+          font-size: 14px;
+          font-weight: 600;
+
+        }
+
+        .left-table-product {
+          background: #EFEFEF;
+          padding: 0 10px;
+          display: flex;
+          align-items: center;
+        }
+        .right-table-product {
+          padding-left: 20px;
+          border-bottom: 1px #ccc dashed;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          li {
+            line-height: 1.2;
+          }
+        
+          
+        }
+      }
+    }
+  }
+
+  .twoInfo-product {
+    .title-twoInfo {
+      line-height: 60px;
+      color: #ffffff;
+      text-indent: 20px;
+      font-weight: 600;
+      background: url('./bgtwoInfo.gif') left center no-repeat;
+    }
+
+    .twoInfoTable-product {
+      width: 730px;
+      display: flex;
+      align-items: stretch;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 20px 0 50px;
+      .left {
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #EFEFEF;
+        border-right: 1px solid #ffffff;
+      }
+      .center {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;t
+        text-align: center;
+        span {
+          line-height: 38px;
+          background: #EFEFEF;
+        }
+        span + span {
+          border-top: solid 1px #ffffff;
+        }
+      }
+      .right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        span {
+          text-indent: 20px;
+          line-height: 38px;
+          border-bottom: dashed 1px #999;;
+        }
+      }
+    }
+
+    .reset-bottom-batle {
+      margin-bottom: 0;
+    }
+    .reset-top-batle {
+      margin-top: 0;
+    }
+
   }
 }
