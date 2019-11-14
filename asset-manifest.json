@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pc-jiu/static/css/main.269faec6.chunk.css",
-    "main.js": "/pc-jiu/static/js/main.b7968866.chunk.js",
-    "main.js.map": "/pc-jiu/static/js/main.b7968866.chunk.js.map",
+    "main.css": "/pc-jiu/static/css/main.46a10dbd.chunk.css",
+    "main.js": "/pc-jiu/static/js/main.2a237de2.chunk.js",
+    "main.js.map": "/pc-jiu/static/js/main.2a237de2.chunk.js.map",
     "runtime-main.js": "/pc-jiu/static/js/runtime-main.38e9cc76.js",
     "runtime-main.js.map": "/pc-jiu/static/js/runtime-main.38e9cc76.js.map",
     "static/js/2.192cd84c.chunk.js": "/pc-jiu/static/js/2.192cd84c.chunk.js",
     "static/js/2.192cd84c.chunk.js.map": "/pc-jiu/static/js/2.192cd84c.chunk.js.map",
     "index.html": "/pc-jiu/index.html",
-    "precache-manifest.abb8ec3034c70a7e32e40093442da998.js": "/pc-jiu/precache-manifest.abb8ec3034c70a7e32e40093442da998.js",
+    "precache-manifest.db8b55d5f6a1f7e825b088dcd3a8d066.js": "/pc-jiu/precache-manifest.db8b55d5f6a1f7e825b088dcd3a8d066.js",
     "service-worker.js": "/pc-jiu/service-worker.js",
-    "static/css/main.269faec6.chunk.css.map": "/pc-jiu/static/css/main.269faec6.chunk.css.map",
+    "static/css/main.46a10dbd.chunk.css.map": "/pc-jiu/static/css/main.46a10dbd.chunk.css.map",
     "static/media/31.png": "/pc-jiu/static/media/31.43bced79.png",
     "static/media/32.png": "/pc-jiu/static/media/32.2d0624a4.png",
     "static/media/33.png": "/pc-jiu/static/media/33.53e297ed.png",
@@ -33,6 +33,14 @@
     "static/media/pick2.jpg": "/pc-jiu/static/media/pick2.895fc028.jpg",
     "static/media/product1.jpg": "/pc-jiu/static/media/product1.d8d7842e.jpg",
     "static/media/product2.jpg": "/pc-jiu/static/media/product2.06ac43e5.jpg",
+    "static/media/q11.jpg": "/pc-jiu/static/media/q11.404b75a9.jpg",
+    "static/media/q12.jpg": "/pc-jiu/static/media/q12.367e833b.jpg",
+    "static/media/q21.jpg": "/pc-jiu/static/media/q21.04a532b5.jpg",
+    "static/media/q22.jpg": "/pc-jiu/static/media/q22.4fd3cc6b.jpg",
+    "static/media/q31.jpeg": "/pc-jiu/static/media/q31.1c735e8f.jpeg",
+    "static/media/q32.jpeg": "/pc-jiu/static/media/q32.dc9ab5c4.jpeg",
+    "static/media/q4.jpg": "/pc-jiu/static/media/q4.018ddf33.jpg",
+    "static/media/q5.jpg": "/pc-jiu/static/media/q5.6694ff39.jpg",
     "static/media/qiumian.jpg": "/pc-jiu/static/media/qiumian.4970a2ae.jpg",
     "static/media/quality1.jpg": "/pc-jiu/static/media/quality1.d876d2da.jpg",
     "static/media/quality2.jpg": "/pc-jiu/static/media/quality2.c872b417.jpg",
@@ -44,7 +52,7 @@
   "entrypoints": [
     "static/js/runtime-main.38e9cc76.js",
     "static/js/2.192cd84c.chunk.js",
-    "static/css/main.269faec6.chunk.css",
-    "static/js/main.b7968866.chunk.js"
+    "static/css/main.46a10dbd.chunk.css",
+    "static/js/main.2a237de2.chunk.js"
   ]
 }
