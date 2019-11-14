@@ -108,6 +108,80 @@ function ProductInfo (props) {
               </div>
             </Fragment>
           }
+
+          {
+            type === '3' && 
+            <Fragment>
+              <div className="type3-container">
+                <p className="title-type3">アンギュラ玉軸受の組合せ加工</p>
+                <img src={require('./31.png')} />
+                <p className="info-type3">各軸受の差幅を研磨で調整して、所定の予圧すきま、または規定のアキシアルすきまに調整します。</p>
+                <p className="info-type3">組合せ： DB、DF、DTがあります(2列の場合）</p>
+                <p className="info-type3">軸受：標準シリーズ79 、70 、7 2 、73形 工機シリーズBNC 、TAC、BAなど各種</p>
+                <p className="info-type3">加工範囲：内径10mmから外径600mmまで</p>
+                <p className="info-type3">精度：PO、P6、P5、P4、P2の各種</p>
+                <p className="info-type3">すきま：普通·C3、C4およびCADなど</p>
+                <p className="info-type3">予圧：L、M、H、C10およびCPDなど</p>
+
+
+
+                <p className="title-type3">油みぞ、油穴加工</p>
+                <img src={require('./32.png')} />
+                <p className="info-type3">穴のあいていない軸受に特殊な工具で、油穴を加工できます。</p>
+                <p className="info-type3">軸受形式：円筒ころ軸受・自動調心</p>
+                <p className="info-type3">ころ軸受加工内容：油みぞ・油穴付E4 、E 5 、E 7 、W33　ノック穴付E2などNSKの基準と穴径・穴数·みぞ幅がことなる場合はその値をご指示下さい。</p>
+
+
+
+
+                <p className="title-type3">特殊形状間座</p>
+                <img src={require('./33.png')} />
+                <p className="info-type3">間座付き組合せ加工に使用する間座には、内、外輪間座とも円筒状の標準間座の他に次のように特殊のものがあります。</p>
+                <p className="info-type3 list-info-type3">グリース落下防止用(A)</p>
+                <p className="info-type3 list-info-type3">オイルミスト用(B)</p>
+                <p className="info-type3 list-info-type3">オイルエア用(C)</p>
+                <p className="info-type3 list-info-type3">段付高速用(D)</p>
+                <p className="info-type3 list-info-type3">駒付内輪間座(E)</p>
+                <p className="info-type3 list-info-type3">異種番号との組合せ用(F)</p>
+                <p className="info-type3">間座内径及び外径も必要により研削加工を行います。</p>
+
+
+                <p className="title-type3">つば輪の製作</p>
+                <img src={require('./34.png')} />
+                <p className="info-type3">円筒ころ軸受のNJ形にHJのつば輪を製作して組合せ、NH形にすることができます。</p>
+                <p className="info-type3">加工範囲：内径20mmから500mmまでのH J 2XX、22XX形、HJ 3XX、23XX形、HJ 4XX形および特殊寸法つば輪</p>
+
+
+
+                <p className="title-type3">間座付組合せ加工</p>
+                <img src={require('./35.png')} />
+                <p className="info-type3">2個の軸受の間に間座を入れてすきまや予圧を調整する。</p>
+                <p className="info-type3">軸受形式：アンギュラ玉軸受単列深溝玉軸受、円すいころ軸受、円筒自動調心ころ軸受</p>
+                <p className="info-type3">加工範囲：内径10mmから外径600mm程度まで</p>
+                <p className="info-type3">精度：0級、P6級、P5級、P4級およびP2級</p>
+                <p className="info-type3">すきま、予圧：各種すきまから各種の予圧まで</p>
+
+
+                <p className="title-type3">スラスト円筒ころ軸受・スラストワッシャーの製作</p>
+                <img src={require('./36.png')} />
+                <p className="info-type3">加工範囲：内径40mmから外径1200mmまで</p>
+                <p className="info-type3">構造：保持器は銅合金もみ抜き</p>
+                <p className="info-type3">ころ端面はR(外側)形状で高速性良</p>
+                <p className="info-type3">スラストワッシャー：各種寸法のスラストワッシャーも製作します。</p>
+
+
+
+                <p className="title-type3">NUP形への改造</p>
+                <img src={require('./37.png')} />
+                <p className="info-type3">標準のNJ形円筒ころ軸受の内輪を切断し、側輪を新作してNUP形に改造することが出来ます。</p>
+                <p className="info-type3">加工前： N J 2XX、NJ 2 2 X X、N J 3XX、NJ 2 3 X X</p>
+                <p className="info-type3">加工後： N U P 2XX、NUP 2 2 X X、N U P 3XX、NUP 2 3 X X</p>
+                <p className="info-type3">加工範囲：内径20mmから500mmまで</p>
+                <p className="info-type3">つば付内輪の新作もできます。</p>
+
+              </div>
+            </Fragment>
+          }
         </div>
       </div>
     )

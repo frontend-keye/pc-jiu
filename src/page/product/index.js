@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
+import ProductList from '../../components/productList'
 
 import './index.scss'
 
@@ -16,7 +17,7 @@ class Product extends Component {
         </div>
 
         <div className="list-product">
-          <Link className="item-product" to="productInfo/1">
+          {/* <Link className="item-product" to="productInfo/1">
             <img src={require('../../imgs/product-show.png')} alt=""/>
             <h6 className="title-product">球面轴承</h6>
           </Link>
@@ -27,7 +28,9 @@ class Product extends Component {
           <Link className="item-product" to="productInfo/3">
             <img src={require('../../imgs/product-show.png')} alt=""/>
             <h6 className="title-product">不锈钢轴承</h6>
-          </Link>
+          </Link> */}
+
+          <ProductList></ProductList>
         </div>
       </div>
     );

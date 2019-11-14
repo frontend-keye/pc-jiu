@@ -126,4 +126,42 @@
     }
 
   }
+
+  .type3-container {
+    width: 700px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    .title-type3 {
+      margin: 20px 0;
+      font-size: 18px;
+      line-height: 1.8;
+      color: #ffffff;
+      text-align: center;
+      background: #222;
+      font-weight: 600;
+    }
+    img {
+      display: block;
+      margin: 20px auto;
+    
+    }
+    .info-type3 {
+      line-height: 1.5;
+      margin: 0 20px;
+    }
+    .list-info-type3 {
+      display: flex;
+      align-items: center;
+    }
+    .list-info-type3::before {
+      content: '';
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #222222;
+      margin: 0px 10px;
+    }
+  }
 }
