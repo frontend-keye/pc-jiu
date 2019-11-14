@@ -7,6 +7,7 @@ import ProductInfo from './page/productInfo'
 import ProductSearch from './page/productSearch'
 import Recuitment from './page/recuitment'
 import RecuitmentDetail from './page/recuitmentdetail'
+import QualityPage from './page/quality'
 
 // 5 品質管理
 export default [{
@@ -49,6 +50,12 @@ export default [{
   component: ProductSearch,
   title: '',
   order: 0
+}, {
+  path: '/quality',
+  component: QualityPage,
+  title: '品質管理',
+  order: 5,
+  isBottom: true
 }, {
   path: '/recuitment',
   component: Recuitment,

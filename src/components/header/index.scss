@@ -1,14 +1,13 @@
 .header {
-  position: relative;
+  position: sticky;
   padding-top: 30px;
-  height: 116px;
+  height: 152px;
   background: #ffffff;
-  width: 100%;
+  top: 0;
   z-index: 9999999;
 }
 .right-item {
   margin-right: 10px;
-
 }
 .right-header {
   display: flex;
@@ -17,7 +16,7 @@
 
 }
 .header .inner {
-  position: fixed;
+  // position: fixed;
   height: 116px;
   background: #ffffff;
   z-index: 9999999;

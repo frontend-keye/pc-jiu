@@ -15,7 +15,7 @@ function Header ({location: {pathname}}) {
     })} key={i} to={t.path}>{t.title}</Link>
   })
   return <div className="header">
-    <div className="header inner">
+    <div className="inner">
       <div className="top-header">
         <div className="home">
           <Link  to='/home' className="header-logo-container">
