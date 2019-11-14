@@ -1,23 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36dd96933357b1bbd845fd494ca179f3",
+    "revision": "8784426921ad8c4f277b9c57f1a05574",
     "url": "/pc-jiu/index.html"
   },
   {
-    "revision": "228b7aa31846357c74ea",
-    "url": "/pc-jiu/static/css/main.f06f1054.chunk.css"
+    "revision": "6cfb82625f305ecd4674",
+    "url": "/pc-jiu/static/css/main.387e0e51.chunk.css"
   },
   {
-    "revision": "40b1b6bf99c3c25090a7",
-    "url": "/pc-jiu/static/js/2.4dc78910.chunk.js"
+    "revision": "c964a33964ef20bc7207",
+    "url": "/pc-jiu/static/js/2.11602ccc.chunk.js"
   },
   {
-    "revision": "228b7aa31846357c74ea",
-    "url": "/pc-jiu/static/js/main.0eaf0c6f.chunk.js"
+    "revision": "6cfb82625f305ecd4674",
+    "url": "/pc-jiu/static/js/main.56f4dcd9.chunk.js"
   },
   {
     "revision": "f61554b85630bd354802",
     "url": "/pc-jiu/static/js/runtime-main.38e9cc76.js"
+  },
+  {
+    "revision": "43bced7981efc713abf0f4325279927c",
+    "url": "/pc-jiu/static/media/31.43bced79.png"
+  },
+  {
+    "revision": "2d0624a4375229d29afbc020a3051b79",
+    "url": "/pc-jiu/static/media/32.2d0624a4.png"
+  },
+  {
+    "revision": "53e297ed10c0080d39287cf84643d616",
+    "url": "/pc-jiu/static/media/33.53e297ed.png"
+  },
+  {
+    "revision": "7066a3cd0f27db0e13664a7f2a56322c",
+    "url": "/pc-jiu/static/media/34.7066a3cd.png"
+  },
+  {
+    "revision": "80d149c2a1e15e7692a2238078561c75",
+    "url": "/pc-jiu/static/media/35.80d149c2.png"
+  },
+  {
+    "revision": "80d149c2a1e15e7692a2238078561c75",
+    "url": "/pc-jiu/static/media/36.80d149c2.png"
+  },
+  {
+    "revision": "403b5a8ede98910990f6ed058c436692",
+    "url": "/pc-jiu/static/media/37.403b5a8e.png"
   },
   {
     "revision": "ea19c71afdd251400a7a80980685480a",
@@ -74,10 +102,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "895fc028c77bd6b23bc1b6ec3f1ea4c6",
     "url": "/pc-jiu/static/media/pick2.895fc028.jpg"
-  },
-  {
-    "revision": "709e62abfccee1a7ff96d5736016f8d8",
-    "url": "/pc-jiu/static/media/product-show.709e62ab.png"
   },
   {
     "revision": "d8d7842e2aa970e3c0d0f8d1bd6809f6",
