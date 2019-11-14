@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8784426921ad8c4f277b9c57f1a05574",
+    "revision": "23caa5afb3d8a15c2b32caa44651c215",
     "url": "/pc-jiu/index.html"
   },
   {
-    "revision": "6cfb82625f305ecd4674",
-    "url": "/pc-jiu/static/css/main.387e0e51.chunk.css"
+    "revision": "2f4af27c7ad923a11656",
+    "url": "/pc-jiu/static/css/main.269faec6.chunk.css"
   },
   {
-    "revision": "c964a33964ef20bc7207",
-    "url": "/pc-jiu/static/js/2.11602ccc.chunk.js"
+    "revision": "53dce48e2dd7628d5cfc",
+    "url": "/pc-jiu/static/js/2.192cd84c.chunk.js"
   },
   {
-    "revision": "6cfb82625f305ecd4674",
-    "url": "/pc-jiu/static/js/main.56f4dcd9.chunk.js"
+    "revision": "2f4af27c7ad923a11656",
+    "url": "/pc-jiu/static/js/main.b7968866.chunk.js"
   },
   {
     "revision": "f61554b85630bd354802",
@@ -114,6 +114,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4970a2aeb1f0434609e8c8850ce09691",
     "url": "/pc-jiu/static/media/qiumian.4970a2ae.jpg"
+  },
+  {
+    "revision": "d876d2dae94aad2c64ab3bbfcd059838",
+    "url": "/pc-jiu/static/media/quality1.d876d2da.jpg"
+  },
+  {
+    "revision": "c872b4179a4e0a31cbe1797a9bb208f3",
+    "url": "/pc-jiu/static/media/quality2.c872b417.jpg"
+  },
+  {
+    "revision": "e3e42e194dcc3722d7359a6cca361e5a",
+    "url": "/pc-jiu/static/media/quality3.e3e42e19.jpg"
   },
   {
     "revision": "b68d03d7dafb950094bf5db51ec3fa3f",

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pc-jiu/static/css/main.387e0e51.chunk.css",
-    "main.js": "/pc-jiu/static/js/main.56f4dcd9.chunk.js",
-    "main.js.map": "/pc-jiu/static/js/main.56f4dcd9.chunk.js.map",
+    "main.css": "/pc-jiu/static/css/main.269faec6.chunk.css",
+    "main.js": "/pc-jiu/static/js/main.b7968866.chunk.js",
+    "main.js.map": "/pc-jiu/static/js/main.b7968866.chunk.js.map",
     "runtime-main.js": "/pc-jiu/static/js/runtime-main.38e9cc76.js",
     "runtime-main.js.map": "/pc-jiu/static/js/runtime-main.38e9cc76.js.map",
-    "static/js/2.11602ccc.chunk.js": "/pc-jiu/static/js/2.11602ccc.chunk.js",
-    "static/js/2.11602ccc.chunk.js.map": "/pc-jiu/static/js/2.11602ccc.chunk.js.map",
+    "static/js/2.192cd84c.chunk.js": "/pc-jiu/static/js/2.192cd84c.chunk.js",
+    "static/js/2.192cd84c.chunk.js.map": "/pc-jiu/static/js/2.192cd84c.chunk.js.map",
     "index.html": "/pc-jiu/index.html",
-    "precache-manifest.8178acd0d2467b48f2ec70dc367285da.js": "/pc-jiu/precache-manifest.8178acd0d2467b48f2ec70dc367285da.js",
+    "precache-manifest.abb8ec3034c70a7e32e40093442da998.js": "/pc-jiu/precache-manifest.abb8ec3034c70a7e32e40093442da998.js",
     "service-worker.js": "/pc-jiu/service-worker.js",
-    "static/css/main.387e0e51.chunk.css.map": "/pc-jiu/static/css/main.387e0e51.chunk.css.map",
+    "static/css/main.269faec6.chunk.css.map": "/pc-jiu/static/css/main.269faec6.chunk.css.map",
     "static/media/31.png": "/pc-jiu/static/media/31.43bced79.png",
     "static/media/32.png": "/pc-jiu/static/media/32.2d0624a4.png",
     "static/media/33.png": "/pc-jiu/static/media/33.53e297ed.png",
@@ -34,14 +34,17 @@
     "static/media/product1.jpg": "/pc-jiu/static/media/product1.d8d7842e.jpg",
     "static/media/product2.jpg": "/pc-jiu/static/media/product2.06ac43e5.jpg",
     "static/media/qiumian.jpg": "/pc-jiu/static/media/qiumian.4970a2ae.jpg",
+    "static/media/quality1.jpg": "/pc-jiu/static/media/quality1.d876d2da.jpg",
+    "static/media/quality2.jpg": "/pc-jiu/static/media/quality2.c872b417.jpg",
+    "static/media/quality3.jpg": "/pc-jiu/static/media/quality3.e3e42e19.jpg",
     "static/media/recruitment1.jpg": "/pc-jiu/static/media/recruitment1.b68d03d7.jpg",
     "static/media/recruitment2.jpg": "/pc-jiu/static/media/recruitment2.673481b8.jpg",
     "static/media/youzuo1.jpg": "/pc-jiu/static/media/youzuo1.13e05ff7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.38e9cc76.js",
-    "static/js/2.11602ccc.chunk.js",
-    "static/css/main.387e0e51.chunk.css",
-    "static/js/main.56f4dcd9.chunk.js"
+    "static/js/2.192cd84c.chunk.js",
+    "static/css/main.269faec6.chunk.css",
+    "static/js/main.b7968866.chunk.js"
   ]
 }
