@@ -8,15 +8,15 @@ const QualityPage = () => {
 
     <div className="top-quality">
       <p>高品質を支える体制</p>
-      <a href="#1">
+      <p href="#1">
         <img src={require('./quality1.jpg')} />
-      </a>
-      <a href="#2">
+      </p>
+      <p href="#2">
         <img src={require('./quality2.jpg')} />
-      </a>
-      <a href="#3">
+      </p>
+      <p href="#3">
         <img src={require('./quality3.jpg')} />
-      </a>
+      </p>
     </div>
 
     <a name="1" className="title1-quality">品質に対する想い</a>
