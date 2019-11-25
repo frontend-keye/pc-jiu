@@ -78,4 +78,14 @@
       margin-bottom: 5px;
     }
   }
+
+
+  .index2 {
+    .info-table-componey {
+      border: solid 3px #ccc;
+      .item-tabel-componey {
+        display: flex;
+      }
+    }
+  }
 }
