@@ -3,7 +3,7 @@
   text-align: left;
   
   width: 900px;
-  margin: 0 auto;
+  margin: 50px auto;
   // margin-top: 20px;
   .left-bar {
     width: 220px;
@@ -81,10 +81,48 @@
 
 
   .index2 {
+    * { 
+      line-height: 36px;
+    }
+    margin-bottom: 400px;
     .info-table-componey {
       border: solid 3px #ccc;
-      .item-tabel-componey {
+      flex: 1;
+      
+      .item-table-componey {
         display: flex;
+
+        .left-table-componey {
+          width: 250px;
+          box-sizing: border-box;
+          padding-left: 10px;
+          flex-shrink: 0;
+          background: #eeeeee;
+
+          border-bottom: dashed 1px #ccc;
+
+        }
+        .short-left {
+          width: 125px;
+
+        }
+
+        .right-table-componey {
+          flex: 1;
+          padding-left: 10px;
+          box-sizing: border-box;
+          border: dashed 1px #ccc;
+          border-top: none;
+          border-right: none;
+        }
+
+        .no-left {
+          padding-left: 0;
+        }
+
+        .border-nobottom {
+          border-bottom: none;
+        }
       }
     }
   }

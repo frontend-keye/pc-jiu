@@ -85,26 +85,111 @@ class Compony extends Component {
           {
             index === 1 &&
             <div className="index2">
+              <p className="main-title-compony">概要</p>
+
               <div className="info-table-componey">
-                <div className="item-tabel-componey">
+                <div className="item-table-componey">
                   <div className="left-table-componey">会社名</div>
                   <div className="right-table-componey">シナノケンシ株式会社</div>
                 </div>
 
-                <div className="item-tabel-componey">
-                  <div className="left-table-componey">プロフィール</div>
-                  <div className="right-table-componey">
+                <div className="item-table-componey">
+                  <div className="left-table-componey short-left">プロフィール</div>
+                  <div className="right-table-componey no-left">
                     
                     <div className="item-table-componey">
+                      <div className="left-table-componey short-left">資本金:</div>
+                      <div className="right-table-componey">6億5,000万円</div>
+                    </div>
 
+                    <div className="item-table-componey">
+                      <div className="left-table-componey short-left">従業員数:</div>
+                      <div className="right-table-componey">4,000人　世界全体 <br />850人　日本/本社</div>
+                    </div>
+
+                    <div className="item-table-componey">
+                      <div className="left-table-componey short-left border-nobottom">売上（連結）:</div>
+                      <div className="right-table-componey border-nobottom">452億円（2018年2月時点</div>
                     </div>
                   </div>
                 </div>
-                <div className="item-tabel-componey">
-                  <div className="left-table-componey"></div>
-                  <div className="right-table-componey"></div>
+
+                <div className="item-table-componey">
+                  <div className="left-table-componey">業務内容</div>
+                  <div className="right-table-componey">精密小型モータの製造・販売</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">設立</div>
+                  <div className="right-table-componey">1918年(大正7年)</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">モータ事業の開始</div>
+                  <div className="right-table-componey">1962年</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">代表取締役社長</div>
+                  <div className="right-table-componey">金子 元昭(Motoaki Kaneko)</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">所在地</div>
+                  <div className="right-table-componey">
+                    <p>本社／丸子事業所[アクセスマップへ]</p>
+                    <p>〒386-0498</p>
+                    <p>長野県上田市上丸子1078</p>
+                    <p>TEL (0268)41-1800 / FAX (0268)43-0010</p>
+                    <p></p>
+                    <p>東内事業所[アクセスマップへ]</p>
+                    <p>〒386-0413</p>
+                    <p>長野県上田市東内418</p>
+                  </div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">事業所敷地</div>
+                  <div className="right-table-componey">73,000㎡</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">取引銀行</div>
+                  <div className="right-table-componey">八十二銀行、三菱UFJ銀行</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">業種</div>
+                  <div className="right-table-componey">電気機器（開発・生産・販売）</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey border-nobottom">製品</div>
+                  <div className="right-table-componey border-nobottom">
+                    <p>精密モータ・アクチュエータ・システム商品</p>
+                    <p>産業システム機器</p>
+                    <p>福祉・生活支援機器</p>
+                  </div>
                 </div>
               </div>
+
+              <p className="main-title-compony">シナノケンシグループ</p>
+              <p className="subtitle-info-compony">海外関連会社</p>
+              <div className="info-table-componey">
+                <div className="item-table-componey">
+                  <div className="left-table-componey border-nobottom">海外生産/営業拠点</div>
+                  <div className="right-table-componey border-nobottom">中国、香港、アメリカ、ヨーロッパ、タイ、インド、メキシコ</div>
+                </div>
+              </div>
+
+              <p className="subtitle-info-compony">国内関連会社</p>
+              <div className="info-table-componey">
+                <div className="item-table-componey">
+                  <div className="left-table-componey">会社名</div>
+                  <div className="right-table-componey">シナノケンシスタッフサービス株式会社</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">所在地</div>
+                  <div className="right-table-componey">長野県上田市</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey border-nobottom">業種</div>
+                  <div className="right-table-componey border-nobottom">モータ部品製造、流通サービス他</div>
+                </div>
+              </div>
+
             </div>
           }
           {
