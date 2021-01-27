@@ -25,19 +25,19 @@ export default [{
   path: '/compony',
   component: Compony,
   title: '企業情報',
-  order: 2,
+  order: 1,
   isBottom: true
 }, {
   path: '/environment',
   component: Environment,
   title: '環境への取り組み',
-  order: 4,
+  order: 3,
   isBottom: true
 }, {
   path: '/product',
   component: Product,
   title: '製品情報',
-  order: 3,
+  order: 2,
   exact: true,
   isBottom: true
 }, {

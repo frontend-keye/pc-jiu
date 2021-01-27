@@ -4,8 +4,8 @@ import classnames from 'classnames'
 import routers from '../../router'
 import './index.scss'
 function Header ({location: {pathname}}) {
-  const headerData = routers.filter(t => t.order > 0).sort((a, b) => a.sort - b.sort)
-  const Links = headerData.filter(t => t.order > 0).sort((a, b) => a.sort - b.sort).map((t, i) => {
+  const headerData = routers.filter(t => t.order > 0).sort((a, b) => a.order - b.order)
+  const Links = headerData.filter(t => t.order > 0).sort((a, b) => a.order - b.order).map((t, i) => {
     // if ('/index' === t.path) {
     //   return null
     // }
