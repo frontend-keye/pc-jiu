@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames'
+import GClogo1 from '../../imgs/gc-1.jpg'
+import GClogo2 from '../../imgs/gc-2.jpg'
 import './index.scss'
 class Compony extends Component {
   constructor(props) {
@@ -91,9 +93,17 @@ class Compony extends Component {
               <div className="info-table-componey">
                 <div className="item-table-componey">
                   <div className="left-table-componey">会社名</div>
-                  <div className="right-table-componey">シナノケンシ株式会社</div>
+                  <div className="right-table-componey">ジェイオート精工株式会社</div>
                 </div>
-
+                <div className="item-table-componey">
+                  <div className="left-table-componey">創業</div>
+                  <div className="right-table-componey">昭和11年2月</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">資本金</div>
+                  <div className="right-table-componey">23億1千万円</div>
+                </div>
+{/* 
                 <div className="item-table-componey">
                   <div className="left-table-componey short-left">プロフィール</div>
                   <div className="right-table-componey no-left">
@@ -113,81 +123,97 @@ class Compony extends Component {
                       <div className="right-table-componey border-nobottom">452億円（2018年2月時点</div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="item-table-componey">
-                  <div className="left-table-componey">業務内容</div>
-                  <div className="right-table-componey">精密小型モータの製造・販売</div>
-                </div>
-                <div className="item-table-componey">
-                  <div className="left-table-componey">設立</div>
-                  <div className="right-table-componey">1918年(大正7年)</div>
-                </div>
-                <div className="item-table-componey">
-                  <div className="left-table-componey">モータ事業の開始</div>
-                  <div className="right-table-componey">1962年</div>
-                </div>
-                <div className="item-table-componey">
-                  <div className="left-table-componey">代表取締役社長</div>
-                  <div className="right-table-componey">金子 元昭(Motoaki Kaneko)</div>
-                </div>
-                <div className="item-table-componey">
-                  <div className="left-table-componey">所在地</div>
+                  <div className="left-table-componey">本社</div>
                   <div className="right-table-componey">
-                    <p>本社／丸子事業所[アクセスマップへ]</p>
-                    <p>〒386-0498</p>
-                    <p>長野県上田市上丸子1078</p>
-                    <p>TEL (0268)41-1800 / FAX (0268)43-0010</p>
-                    <p></p>
-                    <p>東内事業所[アクセスマップへ]</p>
-                    <p>〒386-0413</p>
-                    <p>長野県上田市東内418</p>
+                    <p>〒350-2213埼玉県鶴ヶ島市脚折1646</p>
+                    <p>TEL（080）7810-6483</p>
                   </div>
                 </div>
                 <div className="item-table-componey">
-                  <div className="left-table-componey">事業所敷地</div>
-                  <div className="right-table-componey">73,000㎡</div>
+                  <div className="left-table-componey">従業員数</div>
+                  <div className="right-table-componey">178</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">工場</div>
+                  <div className="right-table-componey">鶴ヶ島工場（埼玉県）、東松山工場（埼玉県）</div>
+                </div>
+                <div className="item-table-componey">
+                  <div className="left-table-componey">関係会社</div>
+                  <div className="right-table-componey">ミッドテック（株）、（株）トーミック</div>
                 </div>
                 <div className="item-table-componey">
                   <div className="left-table-componey">取引銀行</div>
-                  <div className="right-table-componey">八十二銀行、三菱UFJ銀行</div>
+                  <div className="right-table-componey">三井住友信託銀行、りそな銀行、三井住友銀行、三菱UFJ銀行</div>
                 </div>
                 <div className="item-table-componey">
-                  <div className="left-table-componey">業種</div>
-                  <div className="right-table-componey">電気機器（開発・生産・販売）</div>
+                  <div className="left-table-componey">主な事業内容</div>
+                  <div className="right-table-componey">
+                    <p>1.各種ベアリング及びベアリングに関連する製品の製造販売</p>
+                    <p>2.前号に関する一切の業務ならびにこれに必要な事業の共同経営または投資</p>
+                  </div>
                 </div>
                 <div className="item-table-componey">
-                  <div className="left-table-componey border-nobottom">製品</div>
-                  <div className="right-table-componey border-nobottom">
-                    <p>精密モータ・アクチュエータ・システム商品</p>
-                    <p>産業システム機器</p>
-                    <p>福祉・生活支援機器</p>
+                  <div className="left-table-componey">主要製品品目</div>
+                  <div className="right-table-componey">
+                    <p>	シングルボールベアリング</p>
+                    <p>ダブルボールベアリング</p>
+                    <p>ウォーターポンプベアリング</p>
+                    <p>シリンドリカルローラーベアリング</p>
+                    <p>アンギュラコンタクトベアリング</p>
+                    <p>ハイアビリティーベアリング</p>
+                  </div>
+                </div>
+                
+              </div>
+
+              <p className="main-title-compony">工場概要</p>
+              <div className="imgContainer-tabel">
+                <img src={GClogo1} alt=""/>
+                <div className="info-table-componey">
+                  <div className="item-table-componey">
+                    <div className="left-table-componey border-nobottom">工場名</div>
+                    <div className="right-table-componey border-nobottom">鶴ヶ島工場（埼玉県）</div>
+                  </div>
+                  <div className="item-table-componey">
+                    <div className="left-table-componey border-nobottom">土地面積</div>
+                    <div className="right-table-componey border-nobottom">37,400平方メートル</div>
+                  </div>
+                  <div className="item-table-componey">
+                    <div className="left-table-componey border-nobottom">建物（敷地）面積</div>
+                    <div className="right-table-componey border-nobottom">13,840平方メートル</div>
+                  </div>
+                  <div className="item-table-componey">
+                    <div className="left-table-componey border-nobottom">建物延べ面積</div>
+                    <div className="right-table-componey border-nobottom">17,800平方メートル</div>
                   </div>
                 </div>
               </div>
-
-              <p className="main-title-compony">シナノケンシグループ</p>
-              <p className="subtitle-info-compony">海外関連会社</p>
-              <div className="info-table-componey">
-                <div className="item-table-componey">
-                  <div className="left-table-componey border-nobottom">海外生産/営業拠点</div>
-                  <div className="right-table-componey border-nobottom">中国、香港、アメリカ、ヨーロッパ、タイ、インド、メキシコ</div>
-                </div>
-              </div>
-
-              <p className="subtitle-info-compony">国内関連会社</p>
-              <div className="info-table-componey">
-                <div className="item-table-componey">
-                  <div className="left-table-componey">会社名</div>
-                  <div className="right-table-componey">シナノケンシスタッフサービス株式会社</div>
-                </div>
-                <div className="item-table-componey">
-                  <div className="left-table-componey">所在地</div>
-                  <div className="right-table-componey">長野県上田市</div>
-                </div>
-                <div className="item-table-componey">
-                  <div className="left-table-componey border-nobottom">業種</div>
-                  <div className="right-table-componey border-nobottom">モータ部品製造、流通サービス他</div>
+              <div className="imgContainer-tabel">
+                <img src={GClogo2} alt=""/>
+                <div className="info-table-componey">
+                  <div className="item-table-componey">
+                    <div className="left-table-componey">工場名</div>
+                    <div className="right-table-componey">東松山工場（埼玉県）</div>
+                  </div>
+                  <div className="item-table-componey">
+                    <div className="left-table-componey border-nobottom">土地面積</div>
+                    <div className="right-table-componey border-nobottom">16,912平方メートル</div>
+                  </div>
+                  <div className="item-table-componey">
+                    <div className="left-table-componey border-nobottom">建物（敷地）面積</div>
+                    <div className="right-table-componey border-nobottom">2,290平方メートル</div>
+                  </div>
+                  <div className="item-table-componey">
+                    <div className="left-table-componey border-nobottom">建物延べ面積</div>
+                    <div className="right-table-componey border-nobottom">3,009平方メートル</div>
+                  </div>
+                  <div className="item-table-componey">
+                    <div className="left-table-componey border-nobottom"  style={{padding: '10px'}}>&nbsp;</div>
+                    <div className="right-table-componey border-nobottom"  style={{padding: '10px'}}>&nbsp;</div>
+                  </div>
                 </div>
               </div>
 
