@@ -1,6 +1,8 @@
 .quality {
   width: 900px;
   margin: 0 auto;
+  overflow: auto;
+  height: 100%;
   .title-quality {
     font-size: 20px;
     font-weight: 600px;

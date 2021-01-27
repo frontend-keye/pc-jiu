@@ -1,6 +1,8 @@
 .recuitmentDetail {
   text-align: left;
   z-index: -1;
+  height: 100%;
+  overflow: auto;
 
   .center {
     width: 800px;

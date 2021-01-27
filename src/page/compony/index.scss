@@ -75,6 +75,7 @@
       }
     }
 
+
     .name-componey {
       text-align: right;
       margin-top: 30px;
@@ -92,10 +93,25 @@
       line-height: 36px;
     }
     margin-bottom: 400px;
+    .main-info-compony {
+      padding-left: 50px;
+    }
+    .main-title-compony {
+      margin-left: 50px;
+      text-indent: -50px;
+      margin: 20px 0;
+      span{
+        font-size: 36px;
+      }
+      &::before {
+        opacity: 0;
+
+      }
+    }
     .info-table-componey {
       border: solid 3px #ccc;
       flex: 1;
-      
+
       .item-table-componey {
         display: flex;
 

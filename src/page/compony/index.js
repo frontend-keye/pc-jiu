@@ -97,33 +97,12 @@ class Compony extends Component {
                 </div>
                 <div className="item-table-componey">
                   <div className="left-table-componey">創業</div>
-                  <div className="right-table-componey">昭和11年2月</div>
+                  <div className="right-table-componey">昭和1963年2月</div>
                 </div>
                 <div className="item-table-componey">
                   <div className="left-table-componey">資本金</div>
                   <div className="right-table-componey">23億1千万円</div>
                 </div>
-{/* 
-                <div className="item-table-componey">
-                  <div className="left-table-componey short-left">プロフィール</div>
-                  <div className="right-table-componey no-left">
-                    
-                    <div className="item-table-componey">
-                      <div className="left-table-componey short-left">資本金:</div>
-                      <div className="right-table-componey">6億5,000万円</div>
-                    </div>
-
-                    <div className="item-table-componey">
-                      <div className="left-table-componey short-left">従業員数:</div>
-                      <div className="right-table-componey">4,000人　世界全体 <br />850人　日本/本社</div>
-                    </div>
-
-                    <div className="item-table-componey">
-                      <div className="left-table-componey short-left border-nobottom">売上（連結）:</div>
-                      <div className="right-table-componey border-nobottom">452億円（2018年2月時点</div>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div className="item-table-componey">
                   <div className="left-table-componey">本社</div>
@@ -134,7 +113,7 @@ class Compony extends Component {
                 </div>
                 <div className="item-table-componey">
                   <div className="left-table-componey">従業員数</div>
-                  <div className="right-table-componey">178</div>
+                  <div className="right-table-componey">178名</div>
                 </div>
                 <div className="item-table-componey">
                   <div className="left-table-componey">工場</div>
@@ -224,16 +203,16 @@ class Compony extends Component {
             <div className="index2">
               <p  className="main-info-compony">当社は精密かつ完璧なものづくりを通じて社会に貢献することを企業理念としています。この理念を実現するために、当社がお客様から信頼される製品をつくること、またあらゆる事業を行ううえでの社会的責任を果たすために、法律を守り、安定した供給体制をつくり、継続的な原価低減ができる取引先様との協業関係を深める活動が不可欠であることから以下を当社の調達方針としています。</p>
 
-              <p className="main-title-compony">1. 公平・公正な取引</p>
+              <p className="main-title-compony"><span>1. </span>公平・公正な取引</p>
               <p  className="main-info-compony">国籍、企業規模、取引実績の有無を問わず、すべての企業様に対し公平に機会を設け、品質・納期・コスト・技術力・環境保全・健全な事業運営・法令や社会規範の遵守といった合理的な基準に基づいて、取引先様を公正に評価・選定します。</p>
 
-              <p className="main-title-compony">2. 継続的なパートナーシップ</p>
+              <p className="main-title-compony"><span>2. </span>継続的なパートナーシップ</p>
               <p  className="main-info-compony">国内外の取引先様とのパートナーシップを深め、相互協力・信頼関係を構築し、取引を通じて共に成長・発展することができる関係を築きます。</p>
 
-              <p className="main-title-compony">3. 環境への配慮</p>
+              <p className="main-title-compony"><span>3. </span>環境への配慮</p>
               <p  className="main-info-compony">当社の「環境方針」に基づき、環境負荷の少ない部材を調達するなど、環境保全に配慮した調達活動を推進します。</p>
 
-              <p className="main-title-compony">4. 法令・社会規範の遵守</p>
+              <p className="main-title-compony"><span>4. </span>法令・社会規範の遵守</p>
               <p  className="main-info-compony">「ジェイオート精工企業行動憲章」に基づき、関連する法令や社会規範を遵守し、取引先様との信頼関係の構築に努めます。</p>
               <p  className="main-info-compony">また、調達活動で得た取引先様の情報については、適切に保護・管理します。</p>
 
@@ -247,7 +226,7 @@ class Compony extends Component {
 
           {
             index === 3 &&
-            <div className="index2">
+            <div className="index3">
               <p  className="main-info-compony">ジェイオート精工の「サプライヤー行動規範＆責任基準」については。</p>
               <p className="main-title-compony">ジェイオート精工企業行動憲章</p>
               <p  className="main-info-compony">ジェイオート精工は、「精密かつ完璧なものづくりにこだわる」という経営理念のもと、 広く社会から有用で成長を期待される企業を目指します。そのためには、関係法令の遵守はもちろんのこと常に社会的良識を持って行動し、あらゆるステークホルダーの信頼を得られるように公正で誠実な企業活動に取組みます。</p>
