@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pc-jiu/static/css/main.e75d7e41.chunk.css",
-    "main.js": "/pc-jiu/static/js/main.84fab9e6.chunk.js",
-    "main.js.map": "/pc-jiu/static/js/main.84fab9e6.chunk.js.map",
+    "main.css": "/pc-jiu/static/css/main.22673d41.chunk.css",
+    "main.js": "/pc-jiu/static/js/main.d4b40dde.chunk.js",
+    "main.js.map": "/pc-jiu/static/js/main.d4b40dde.chunk.js.map",
     "runtime-main.js": "/pc-jiu/static/js/runtime-main.38e9cc76.js",
     "runtime-main.js.map": "/pc-jiu/static/js/runtime-main.38e9cc76.js.map",
     "static/js/2.a98843a7.chunk.js": "/pc-jiu/static/js/2.a98843a7.chunk.js",
     "static/js/2.a98843a7.chunk.js.map": "/pc-jiu/static/js/2.a98843a7.chunk.js.map",
     "index.html": "/pc-jiu/index.html",
-    "precache-manifest.bd0c5507d07ddccc1bad2075a85dd5f9.js": "/pc-jiu/precache-manifest.bd0c5507d07ddccc1bad2075a85dd5f9.js",
+    "precache-manifest.d1f955539588ffd2ee6434bc3d51ec72.js": "/pc-jiu/precache-manifest.d1f955539588ffd2ee6434bc3d51ec72.js",
     "service-worker.js": "/pc-jiu/service-worker.js",
-    "static/css/main.e75d7e41.chunk.css.map": "/pc-jiu/static/css/main.e75d7e41.chunk.css.map",
+    "static/css/main.22673d41.chunk.css.map": "/pc-jiu/static/css/main.22673d41.chunk.css.map",
     "static/media/31.png": "/pc-jiu/static/media/31.43bced79.png",
     "static/media/32.png": "/pc-jiu/static/media/32.2d0624a4.png",
     "static/media/33.png": "/pc-jiu/static/media/33.53e297ed.png",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.38e9cc76.js",
     "static/js/2.a98843a7.chunk.js",
-    "static/css/main.e75d7e41.chunk.css",
-    "static/js/main.84fab9e6.chunk.js"
+    "static/css/main.22673d41.chunk.css",
+    "static/js/main.d4b40dde.chunk.js"
   ]
 }
