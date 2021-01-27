@@ -47,7 +47,8 @@ class Compony extends Component {
               <p className="main-info-compony">これからも次世代に向けた開発への投資をはじめ、グローバルレベルでの技術提案など、常にお客様へ価値を提供するメーカーとしての確固たる存在感を打ち出せるものと確信をしています。</p>
               <p className="main-info-compony">ジェイオート精工は、全社一丸となって未来創造へのクリエイティブマインドを絶やさず、その尖端性を極めることで、社会そしてステークホルダーの皆様への貢献と成果に繋げてまいります。</p>
               <p className="main-info-compony"></p>
-              <p className="name-componey">社长名字 棚橋　賢人</p>
+              <p className="main-info-compony"></p>
+              <p className="name-componey">社长 棚橋　賢人</p>
 
 
               <p className="main-title-compony">企業理念</p>
@@ -207,7 +208,7 @@ class Compony extends Component {
               <p  className="main-info-compony">当社の「環境方針」に基づき、環境負荷の少ない部材を調達するなど、環境保全に配慮した調達活動を推進します。</p>
 
               <p className="main-title-compony">4. 法令・社会規範の遵守</p>
-              <p  className="main-info-compony">「第一精工グループ企業行動憲章」に基づき、関連する法令や社会規範を遵守し、取引先様との信頼関係の構築に努めます。</p>
+              <p  className="main-info-compony">「ジェイオート精工企業行動憲章」に基づき、関連する法令や社会規範を遵守し、取引先様との信頼関係の構築に努めます。</p>
               <p  className="main-info-compony">また、調達活動で得た取引先様の情報については、適切に保護・管理します。</p>
 
               {/* <p className="main-title-compony"></p>
@@ -221,49 +222,49 @@ class Compony extends Component {
           {
             index === 3 &&
             <div className="index2">
-              <p  className="main-info-compony">第一精工グループの「サプライヤー行動規範＆責任基準」については、こちら（PDF：997KB）をご覧ください。</p>
-              <p className="main-title-compony">第一精工グループ企業行動憲章</p>
-              <p  className="main-info-compony">第一精工グループは、「精密かつ完璧なものづくりにこだわる」という経営理念のもと、 広く社会から有用で成長を期待される企業を目指します。そのためには、関係法令の遵守はもちろんのこと常に社会的良識を持って行動し、あらゆるステークホルダーの信頼を得られるように公正で誠実な企業活動に取組みます。</p>
+              <p  className="main-info-compony">ジェイオート精工の「サプライヤー行動規範＆責任基準」については。</p>
+              <p className="main-title-compony">ジェイオート精工企業行動憲章</p>
+              <p  className="main-info-compony">ジェイオート精工は、「精密かつ完璧なものづくりにこだわる」という経営理念のもと、 広く社会から有用で成長を期待される企業を目指します。そのためには、関係法令の遵守はもちろんのこと常に社会的良識を持って行動し、あらゆるステークホルダーの信頼を得られるように公正で誠実な企業活動に取組みます。</p>
 
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">1．お客さまの満足</span>
-                第一精工グループは、真にお客さまが求める製品・サービスを、安全と品質に十分配慮して開発・提供し、お客さまの満足と信頼の向上に努めます。
+                ジェイオート精工は、真にお客さまが求める製品・サービスを、安全と品質に十分配慮して開発・提供し、お客さまの満足と信頼の向上に努めます。
               </p>
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">2．新しい技術への挑戦</span>
-                第一精工グループは、独創的な技術開発に挑戦し、積極的に新製品と新事業領域の開拓を行います。
+                ジェイオート精工は、独創的な技術開発に挑戦し、積極的に新製品と新事業領域の開拓を行います。
               </p>
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">3．公正な企業活動</span>
-                第一精工グループは、法令その他の社会的規範を遵守し、公正で誠実な企業活動を行います。
+                ジェイオート精工は、法令その他の社会的規範を遵守し、公正で誠実な企業活動を行います。
               </p>
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">4．リスク管理</span>
-                第一精工グループは、会社に重大な影響を及ぼすような発生リスクの把握と対応のみならず、リスクヘッジや発生した場合の損失を最小限にするための対策を立て管理します。
+                ジェイオート精工は、会社に重大な影響を及ぼすような発生リスクの把握と対応のみならず、リスクヘッジや発生した場合の損失を最小限にするための対策を立て管理します。
               </p>
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">5．情報開示</span>
-                第一精工グループは、正確で十分な企業情報を適時・適切に開示し、企業活動の透明性を高めます。
+                ジェイオート精工は、正確で十分な企業情報を適時・適切に開示し、企業活動の透明性を高めます。
               </p>
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">6．環境との調和</span>
-                第一精工グループは、環境問題に積極的に取り組み、「地球にやさしい企業活動」を推進します。
+                ジェイオート精工は、環境問題に積極的に取り組み、「地球にやさしい企業活動」を推進します。
               </p>
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">7．地域社会との調和</span>
-                第一精工グループは、「良き企業市民」として、積極的に社会貢献活動を行います。
+                ジェイオート精工は、「良き企業市民」として、積極的に社会貢献活動を行います。
               </p>
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">8．人権の尊重</span>
-                第一精工グループは、従業員一人ひとりの人権と個性を尊重し、その能力を十分に発揮できる安全で働きやすい職場環境を実現します。そしてあらゆる企業活動においても人権、自主的な労働を尊重し、不当な差別、人身売買、強制労働を排除します。
+                ジェイオート精工は、従業員一人ひとりの人権と個性を尊重し、その能力を十分に発揮できる安全で働きやすい職場環境を実現します。そしてあらゆる企業活動においても人権、自主的な労働を尊重し、不当な差別、人身売買、強制労働を排除します。
               </p>
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">9．知的財産・個人情報の管理</span>
-                第一精工グループは、知的財産や個人情報の価値を認識し、適正な管理を実行します。
+                ジェイオート精工は、知的財産や個人情報の価値を認識し、適正な管理を実行します。
               </p>
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">10．国際社会との協調</span>
-                第一精工グループは、国際ルールや各国法令の遵守はもとより、その文化や習慣を尊重し、国際社会と協調した企業活動を行います。
+                ジェイオート精工は、国際ルールや各国法令の遵守はもとより、その文化や習慣を尊重し、国際社会と協調した企業活動を行います。
               </p>
               <p  className="main-info-compony">
                 <span className="subtitle-info-compony">11．紛争鉱物</span>
