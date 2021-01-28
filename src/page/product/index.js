@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
 import ProductList from '../../components/productList'
+import Product2021 from './product-2021.js'
 
 import './index.scss'
 
@@ -12,11 +13,11 @@ class Product extends Component {
   render() { 
     return ( 
       <div className="product-page">
-        <div className="banner-product">
+        {/* <div className="banner-product">
           <img src={require('../../imgs/bg-product.jpg')} alt="" srcset=""/>
         </div>
 
-        <div className="list-product">
+        <div className="list-product"> */}
           {/* <Link className="item-product" to="productInfo/1">
             <img src={require('../../imgs/product-show.png')} alt=""/>
             <h6 className="title-product">球面轴承</h6>
@@ -30,8 +31,9 @@ class Product extends Component {
             <h6 className="title-product">不锈钢轴承</h6>
           </Link> */}
 
-          <ProductList></ProductList>
-        </div>
+          {/* <ProductList></ProductList>
+        </div> */}
+        <Product2021 />
       </div>
     );
   }
