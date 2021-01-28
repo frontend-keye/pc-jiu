@@ -11,7 +11,7 @@ const RecuitmentDetail = (props) => {
 
         <div className="section-recDet center">
         {
-        props.match.params.type == 1 && 
+        props.type == 0 && 
         <Fragment>
           <p className="sub-title "> <span className="icon">-</span> 新卒採用</p>
 
@@ -57,7 +57,7 @@ const RecuitmentDetail = (props) => {
         </Fragment>
       }
       {
-        props.match.params.type == 2 && 
+        props.type == 1 && 
         <div className="section-recDet center">
 <p className="sub-title "> <span className="icon">-</span> キャリア採用</p>
           <p className="minititle">【募集要項】</p>
