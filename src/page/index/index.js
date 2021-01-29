@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
+import OldQu from '../quality/old/index'
 
 import ProductList from '../../components/productList'
 import './index.scss'
@@ -24,29 +25,31 @@ class Index extends Component {
             <Link className="left" to="/product">
               <img src={require('../../imgs/product1.jpg')} alt=""/>
             </Link>
-            <Link className="right" to="/product/search">
+            {/* search */}
+            <Link className="right" to="/product">
               <img src={require('../../imgs/product2.jpg')} alt=""/>
             </Link>
           </div>
-        <ProductList />
+        {/* <ProductList /> */}
         </div>
 
-        <div className="pick">
-          <h5 className="title-home">Pick Up</h5>
-          <p className="sub-titel-home">ピックアップ</p>
-          <div className="pick-img">
-          <div className="">
-              <Link to="/compony">
-                <img src={require('../../imgs/pick2.jpg')} alt=""/>
-              </Link>
-            </div>            
-            <div className="">
-              <Link to= "/recuitment">
+        <div className="rs">
+          <h5 className="title-home">採用情報</h5>
+          <div className="rs-nav">
+            <Link to="/recuitment">
+              <img src={require('../../imgs/pick2.jpg')} alt=""/>
+            </Link>
+            <Link to= "/recuitment">
+              <img src={require('../../imgs/pick1.jpg')} alt=""/>
+            </Link>
+        </div>
+        {/* <ProductList /> */}
+        </div>        
 
-                <img src={require('../../imgs/pick1.jpg')} alt=""/>
-              </Link>
-            </div>
-          </div>
+        <div className="pick">
+          {/* <h5 className="title-home">Pick Up</h5> */}
+          {/* <p className="sub-titel-home">ピックアップ</p> */}
+          <OldQu></OldQu>
         </div>
 
       </div>

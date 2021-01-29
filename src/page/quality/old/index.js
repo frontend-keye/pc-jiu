@@ -33,7 +33,7 @@ const QualityPage = () => {
     <p className="info-quality">6) 関連部署によるデザインレビューを行い設計完成度を高め、潜在不良を撲滅すること。</p>
 
 
-    <a name="2" className="title2-quality">高度な分析・評価技術</a>
+    {/* <a name="2" className="title2-quality">高度な分析・評価技術</a>
     <p className="info-quality">最先端の設備が整う環境下にて高度な分析による難課題の解決や、複合試験による実使用上の過酷な条件に対する信頼性を保証することで品質の更なる向上に努めています。 </p>
 
 
@@ -73,7 +73,7 @@ const QualityPage = () => {
     <p className="title2-quality">IGグループ各拠点のISO/IATF認証取得状況</p>
     <img className="img5" src={require('./q5.jpg')} alt=""/>
     <p className="info-quality"></p>
-    <p className="info-quality"></p>
+    <p className="info-quality"></p> */}
     
   </div>
 }
