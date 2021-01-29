@@ -17,7 +17,7 @@ class NewProduct extends Component {
   constructor() {
     super(...arguments)
     this.state = {
-      index: 4,
+      index: 0,
       listData: [{
         title: 'ベアリングの種類'
       }, {

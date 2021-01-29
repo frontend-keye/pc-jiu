@@ -12,7 +12,7 @@ export default class Detail extends Component {
   constructor() {
     super(...arguments)
     this.state = {
-      index: 1,
+      index: 0,
     }
   }
   tabChang = (index) => {
