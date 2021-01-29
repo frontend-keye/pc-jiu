@@ -13,6 +13,7 @@ class Product extends Component {
   render() { 
     return ( 
       <div className="product-page">
+        
         {/* <div className="banner-product">
           <img src={require('../../imgs/bg-product.jpg')} alt="" srcset=""/>
         </div>

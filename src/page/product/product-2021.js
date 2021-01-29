@@ -9,13 +9,15 @@ import img11 from './prod1-1.gif';
 import img22 from './prod2-2.gif';
 import Table from './table';
 
+import List from './components/List';
+
 import './product-2021.scss'
 
 class NewProduct extends Component {
   constructor() {
     super(...arguments)
     this.state = {
-      index: 1,
+      index: 4,
       listData: [{
         title: 'ベアリングの種類'
       }, {
@@ -78,14 +80,11 @@ class NewProduct extends Component {
           </div>
         }
         {
-          index == 1 && <div className={`product2021-index${index}`}></div>
+          index >0 && <div className={`scroll product2021-index${index}`} style={{flex: 1}}>
+            <List type={index}></List>
+          </div>
         }
-        {
-          index == 2 && <div className={`product2021-index${index}`}></div>
-        }
-        {
-          index == 3 && <div className={`product2021-index${index}`}></div>
-        }
+
       </div>
     )
   }

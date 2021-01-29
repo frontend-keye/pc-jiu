@@ -56,6 +56,9 @@ a {
 ol li, ul li {
   list-style-position: inside;
 }
+.mt20 {
+  margin-top: 20px;
+}
 
 .mb10 {
   margin-bottom: 10px;
@@ -72,10 +75,20 @@ ol li, ul li {
 .mr10 {
   margin-right: 20px;
 }
+.mr20 {
+  margin-right: 20px;
+}
+.mr30 {
+  margin-right: 30px;
+}
 
 .position-relative {
   position: relative;
 }
 .position-absolute {
   position: absolute;
+}
+
+.flex {
+  display: flex;
 }

@@ -9,6 +9,8 @@ import Recuitment from './page/recuitment'
 import RecuitmentDetail from './page/recuitmentdetail'
 import QualityPage from './page/quality'
 
+import ProductDetail from './page/productDetail'
+
 // 5 品質管理
 export default [{
   path: '/index',
@@ -65,5 +67,9 @@ export default [{
 }, {
   path: '/recuitmentdetail/:type',
   component: RecuitmentDetail,
+  title: ''
+}, {
+  path: '/productDetail/:id',
+  component: ProductDetail,
   title: ''
 }]
