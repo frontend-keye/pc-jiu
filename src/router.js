@@ -33,7 +33,7 @@ export default [{
   path: '/environment',
   component: Environment,
   title: '環境への取り組み',
-  order: 3,
+  order: 4,
   isBottom: true
 }, {
   path: '/product/:type?',
@@ -56,7 +56,7 @@ export default [{
   path: '/quality',
   component: QualityPage,
   title: '品質管理',
-  order: 5,
+  order: 3,
   isBottom: true
 }, {
   path: '/recuitment',

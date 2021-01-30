@@ -51,9 +51,9 @@ class NewProduct extends Component {
           </div>
         {
           index == 0 && <div className={`scroll product2021-index${index}`}>
-            <p className="bolder title">・ベアリングの種類①</p>
+            <p className="bolder title">・ベアリングの種類</p>
             <p className="bolder">ベアリング（bearing)の“ベア(bear)”とは英語で“支える”という意味があります。まさに回転する軸を支えているのです。</p>
-            <p>ベアリングは大きく分けて「転がり軸受」と「滑り<span  className="bolder">軸受」があります。</span></p>
+            <p>ベアリングは大きく分けて「転がり軸受」と「滑り<span  className="">軸受」があります。</span></p>
             <div className="imginfo">
               <div className="imgContainer">
                 <div className="img">
@@ -66,12 +66,12 @@ class NewProduct extends Component {
                 </div>
               </div>
               <div className="left-info">
-                <p className="margin">ここでは、転がり軸受について説明をします。</p>
-                <p>転がり軸受の基本構造は、“外輪”と“内輪”、その間にある“転動体”とその転動体を分離保持する“保持器”からなります。転動体には、玉ところがあります。さらに、ころ</p>
+                <p className="margin">ここでは、転がり軸受について説明をします。状、円すい状、たる状などがあります。</p>
+                <p>転がり軸受の基本構造は、“外輪”と“内輪”、その間にある“転動体”とその転動体を分離保持する“保持器”からなります。転動体には、玉ところがあります。さらに、ころには、その形状が円筒</p>
               </div>
             </div>
-            <p>には、その形状が円筒</p>
-            <p>状、円すい状、たる状などがあります。</p>
+            <p></p>
+
             <div className="imginfo2">
               <img src={img3} alt=""/>
               <span className="bottom-name">転がり軸受の構造</span>

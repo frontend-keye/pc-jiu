@@ -15,7 +15,7 @@ export default class List extends React.Component {
         list.map((t, i) => {
           const {title, id, img, info = []} = t
           return <div className="item" key={i}>
-            <div>
+            <div className="flex1">
               <p className="title">{title}</p>
               {
                 info.map((tt, ii) => {
