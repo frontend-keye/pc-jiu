@@ -10,7 +10,7 @@ function Header ({location: {pathname}}) {
     //   return null
     // }
     let fil = pathname.split('/')[1]
-    if(fil= 'productDetail')  {
+    if(fil == 'productDetail')  {
       fil = 'product'
     }
     return <Link className={classnames({
