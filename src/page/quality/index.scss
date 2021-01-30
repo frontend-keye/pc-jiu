@@ -1,6 +1,6 @@
 .qualitynew {
   display: flex;
-  width: 1000px;
+  width: 1200px;
   margin: auto;
   height: 100%;
   overflow: hidden;
@@ -9,6 +9,7 @@
     display: flex;
   }
   .index {
+    padding-left: 15px;
     p {
       line-height: 1.4;
       text-align: left;

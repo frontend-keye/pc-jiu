@@ -80,11 +80,25 @@ class NewProduct extends Component {
           </div>
         }
         {
-          index >0 && <div className={`scroll product2021-index${index}`} style={{flex: 1}}>
+          index ==1 && <div className={`scroll product2021-index${index}`} style={{flex: 1}}>
             <List type={index}></List>
           </div>
         }
-
+        {
+          index ==2 && <div className={`scroll product2021-index${index}`} style={{flex: 1}}>
+            <List type={index}></List>
+          </div>
+        }
+        {
+          index ==3 && <div className={`scroll product2021-index${index}`} style={{flex: 1}}>
+            <List type={index}></List>
+          </div>
+        }
+        {
+          index ==4 && <div className={`scroll product2021-index${index}`} style={{flex: 1}}>
+            <List type={index}></List>
+          </div>
+        }
       </div>
     )
   }

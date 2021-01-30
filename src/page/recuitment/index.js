@@ -36,7 +36,8 @@ class Recuitment extends Component {
            />
         </div>
         <div>
-          <Detail type={index}></Detail>
+          {index == 0 && <Detail type={0} />}
+          {index == 1 && <Detail type={1} />}
         </div>
         {/* <div className="section-recuitment">
           <div className="type-container">

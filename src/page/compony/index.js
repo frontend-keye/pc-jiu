@@ -36,9 +36,8 @@ class Compony extends Component {
             })
           }
         </div>
-        <div className="right-compony">
-          {
-            index === 0 &&
+        {
+          index === 0 && <div className="right-compony">
             <div className="index0">
               <p className="main-title-compony">ご挨拶</p>
               <p className="main-info-compony">私たちは、1963年の創業から、"つくること"のエキスパートとして妥協無き歩みを続けてきました。</p>
@@ -84,9 +83,10 @@ class Compony extends Component {
               <p className="main-info-compony">従業員満足（ＥＳ）及び顧客満足（ＣＳ）に向かい、５つのキーワードのもと、製造業として技術力を向上させながら未来に向かって前進するIgarashiグループのあるべき姿の象徴として描かれています。</p>
               {/* <p className="main-info-compony"></p> */}
             </div>
-          }
-          {
-            index === 1 &&
+          </div>
+        }
+        {
+          index === 1 && <div className="right-compony">
             <div className="index2">
               <p className="main-title-compony">概要</p>
 
@@ -197,9 +197,10 @@ class Compony extends Component {
               </div>
 
             </div>
-          }
-          {
-            index === 2 &&
+          </div>
+        }
+        {
+          index === 2 && <div className="right-compony">
             <div className="index2">
               <p  className="main-info-compony">当社は精密かつ完璧なものづくりを通じて社会に貢献することを企業理念としています。この理念を実現するために、当社がお客様から信頼される製品をつくること、またあらゆる事業を行ううえでの社会的責任を果たすために、法律を守り、安定した供給体制をつくり、継続的な原価低減ができる取引先様との協業関係を深める活動が不可欠であることから以下を当社の調達方針としています。</p>
 
@@ -221,12 +222,12 @@ class Compony extends Component {
 
               <p className="main-title-compony"></p>
               <p  className="main-info-compony"></p> */}
-            </div>
-          }
-
-          {
-            index === 3 &&
-            <div className="index3">
+            </div>            
+          </div>
+        }
+        {
+          index === 3 && <div className="right-compony">
+<div className="index3">
               <p  className="main-info-compony">ジェイオート精工の「サプライヤー行動規範＆責任基準」については。</p>
               <p className="main-title-compony">ジェイオート精工企業行動憲章</p>
               <p  className="main-info-compony">ジェイオート精工は、「精密かつ完璧なものづくりにこだわる」という経営理念のもと、 広く社会から有用で成長を期待される企業を目指します。そのためには、関係法令の遵守はもちろんのこと常に社会的良識を持って行動し、あらゆるステークホルダーの信頼を得られるように公正で誠実な企業活動に取組みます。</p>
@@ -286,8 +287,9 @@ class Compony extends Component {
               <p className="main-title-compony"></p>
               <p  className="main-info-compony"></p> */}
             </div>
-          }
-        </div>
+          </div>
+        }
+
       </div>
     );
   }

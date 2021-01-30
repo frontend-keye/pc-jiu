@@ -22,11 +22,11 @@ const RecuitmentDetail = (props) => {
           <div className="table-recDetail">
             <div className="item-table">
               <span className="header">応募資格</span>
-              <span className="content-table">2020年3月に大学及び大学院を卒業（修了）見込の方</span>
+              <span className="content-table">2021年3月に大学及び大学院を卒業（修了）見込の方</span>
             </div>
             <div className="item-table">
               <span className="header">勤務地</span>
-              <span className="content-table">本社/神奈川県川崎市幸区遠藤町49-1</span>
+              <span className="content-table">本社埼玉県鶴ヶ島市脚折1646</span>
             </div>
             <div className="item-table">
               <span className="header">勤務時間</span>
@@ -58,8 +58,8 @@ const RecuitmentDetail = (props) => {
       }
       {
         props.type == 1 && 
-        <div className="section-recDet center">
-<p className="sub-title "> <span className="icon">-</span> キャリア採用</p>
+        <>
+          <p className="sub-title "> <span className="icon">-</span> キャリア採用</p>
           <p className="minititle">【募集要項】</p>
 
           <div className="table-recDetail">
@@ -74,7 +74,7 @@ const RecuitmentDetail = (props) => {
             </div>
             <div className="item-table">
               <span className="header">勤務地</span>
-              <span className="content-table">本社/神奈川県川崎市幸区遠藤町49-1</span>
+              <span className="content-table">ジェイオート精工株式会社</span>
             </div>
             <div className="item-table">
               <span className="header">勤務時間</span>
@@ -106,7 +106,7 @@ const RecuitmentDetail = (props) => {
             </div>
           </div>
 
-        </div>
+        </>
       }
           
 
@@ -115,7 +115,7 @@ const RecuitmentDetail = (props) => {
           <p className="tip-title-recDetail">下記採用窓口に事前連絡の上、履歴書、職務経歴書をご提出ください。</p>
           <p className="tip-recDetail">
             <span className="label">採用窓口</span>：
-            <span className="content">株式会社　五十嵐電機製作所　　（〒212-0006 神奈川県川崎市幸区遠藤町49-1）</span>
+            <span className="content">ジェイオート精工株式会社</span>
           </p>
           <p className="tip-recDetail">
             <span className="label">採用担当</span>：
@@ -123,11 +123,11 @@ const RecuitmentDetail = (props) => {
           </p>
           <p className="tip-recDetail">
             <span className="label">E-Mail</span>：
-            <span className="content">	jinji@jp-igarashi.com</span>
+            <span className="content">jinji@jaut.com</span>
           </p>
           <p className="tip-recDetail">
             <span className="label">電話番号</span>：
-            <span className="content">044-522-0525</span>
+            <span className="content">080-7810-6483</span>
           </p>
         </div>
     </div>
