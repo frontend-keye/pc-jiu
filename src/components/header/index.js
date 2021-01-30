@@ -9,8 +9,12 @@ function Header ({location: {pathname}}) {
     // if ('/index' === t.path) {
     //   return null
     // }
+    let fil = pathname.split('/')[1]
+    if(fil= 'productDetail')  {
+      fil = 'product'
+    }
     return <Link className={classnames({
-      'acitve-nav': pathname.indexOf(t.path) !== -1,
+      'acitve-nav': t.path.indexOf(fil) !== -1,
       'nav-item': true
     })} key={i} to={t.path}>{t.title}</Link>
   })
