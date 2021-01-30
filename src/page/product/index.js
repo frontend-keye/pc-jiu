@@ -11,6 +11,7 @@ class Product extends Component {
     this.state = {  }
   }
   render() { 
+    const type = this.props.match.params.type
     return ( 
       <div className="product-page">
         
@@ -34,7 +35,7 @@ class Product extends Component {
 
           {/* <ProductList></ProductList>
         </div> */}
-        <Product2021 />
+        <Product2021 type={type} />
       </div>
     );
   }

@@ -36,7 +36,7 @@ export default [{
   order: 3,
   isBottom: true
 }, {
-  path: '/product',
+  path: '/product/:type?',
   component: Product,
   title: '製品情報',
   order: 2,

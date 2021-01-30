@@ -32,11 +32,14 @@ class NewProduct extends Component {
     }
   }
   onChange = (index) => {
-    this.setState({index})
+    this.props.history.replace(`/product/${index}`)
   }
 
   render () {
-    const {listData, index = 0} = this.state
+    const {listData } = this.state
+    let type = parseInt(this.props.match.params.type)
+    const index = isNaN(type) ? 0 : type
+    // isNaN()? 0: this.props.type
     
     return(
       <div className="product2021">
