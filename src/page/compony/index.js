@@ -40,7 +40,7 @@ class Compony extends Component {
           index === 0 && <div className="right-compony">
             <div className="index0">
               <p className="main-title-compony">ご挨拶</p>
-              <p className="main-info-compony">私たちは、1963年の創業から、"つくること"のエキスパートとして妥協無き歩みを続けてきました。</p>
+              <p className="main-info-compony">私たちは、昭和63年の創業から、"つくること"のエキスパートとして妥協無き歩みを続けてきました。</p>
 
               <p className="main-info-compony">そして、技術革新がめまぐるしく進歩するなか、未知の課題に対しても途絶えることなき無限の挑戦を重ねることで、私たちのポテンシャルはより大きく成長しています。</p>
               <p className="main-info-compony">このようなあくなき精神は、常に私たち社員一人一人が育て共鳴するものであり、私たちジェイオート精工にとっても必要不可欠な財産となって引き継がれるものです。</p>
