@@ -49,7 +49,7 @@ class Compony extends Component {
               <p className="main-info-compony">ジェイオート精工は、全社一丸となって未来創造へのクリエイティブマインドを絶やさず、その尖端性を極めることで、社会そしてステークホルダーの皆様への貢献と成果に繋げてまいります。</p>
               <p className="main-info-compony"></p>
               <p className="main-info-compony"></p>
-              <p className="name-componey">社长 棚橋　賢人</p>
+              <p className="name-componey">社長 棚橋　賢人</p>
 
 
               <p className="main-title-compony">企業理念</p>
@@ -97,7 +97,7 @@ class Compony extends Component {
                 </div>
                 <div className="item-table-componey">
                   <div className="left-table-componey">創業</div>
-                  <div className="right-table-componey">昭和1963年2月</div>
+                  <div className="right-table-componey">昭和63年2月</div>
                 </div>
                 <div className="item-table-componey">
                   <div className="left-table-componey">資本金</div>
