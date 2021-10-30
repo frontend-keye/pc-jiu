@@ -22,7 +22,7 @@ const RecuitmentDetail = (props) => {
           <div className="table-recDetail">
             <div className="item-table">
               <span className="header">応募資格</span>
-              <span className="content-table">2021年3月に大学及び大学院を卒業（修了）見込の方</span>
+              <span className="content-table">2022年3月に大学及び大学院を卒業（修了）見込の方</span>
             </div>
             <div className="item-table">
               <span className="header">勤務地</span>
